@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deprovisioned.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+summary: 'Vous pouvez afficher une liste de boîtes aux lettres ou de comptes d"utilisateur qui ont été supprimés.' 
+---
+= Afficher la liste des éléments déprovisionnés
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez afficher une liste de boîtes aux lettres ou de comptes d'utilisateur qui ont été déprovisionnés.
+
+.Étapes
+. Cliquez sur *SERVICES* dans le volet de navigation de gauche.
+. Dans le service souhaité, cliquez sur le nombre d'éléments non protégés.
+. Cliquez sur l'onglet *DEPROVISIONED*.
+

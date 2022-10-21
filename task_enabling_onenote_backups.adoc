@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_enabling_onenote_backups.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, enable, enabling, onenote 
+summary: Vous pouvez activer les sauvegardes pour les ordinateurs portables OneNote. 
+---
+= Activer les sauvegardes pour OneNote
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Par défaut, les sauvegardes des ordinateurs portables OneNote sont activées. Si vous souhaitez sauvegarder vos ordinateurs portables OneNote, vous devez activer la sauvegarde dans le service souhaité.
+
+.Étapes
+. Cliquez sur *Services* dans le volet de navigation de gauche.
++
+image:services.gif["Capture d'écran du bouton services"]
+
+. Cliquez sur Microsoft 365.
++
+image:mso365_settings.gif["Capture d'écran du bouton Microsoft 365"]
+
+. Sous *gérer les services*, cliquez sur l'icône des paramètres de sauvegarde image:configure_icon.gif["Capture d'écran de l'icône de configuration"] à côté du service que vous devez mettre à jour.
++
+La liste des paramètres de sauvegarde disponibles pour le service sélectionné s'affiche.
+
+. SÉLECTIONNEZ *ACTIVER LA SAUVEGARDE ONENOTE*.
+. Cliquez sur *confirmer*. Les ordinateurs portables seront inclus dans la prochaine sauvegarde programmée. Si vous souhaitez les sauvegarder immédiatement, effectuez une link:task_performing_immediate_backup_of_service.html["sauvegarde immédiate"].
+

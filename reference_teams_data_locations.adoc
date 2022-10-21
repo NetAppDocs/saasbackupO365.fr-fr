@@ -1,0 +1,73 @@
+---
+sidebar: sidebar 
+permalink: reference_teams_data_locations.html 
+keywords: netapp, saas backup, microsoft 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: Une référence de tableau indique où localiser les données Teams dans SaaS Backup. 
+---
+= Équipes chargées du stockage des données
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Les données pour Microsoft Teams présentent différents emplacements dans SaaS Backup pour Microsoft 365.
+
+Le tableau indique où trouver les données Teams dans SaaS Backup.
+
+[cols="12,64a"]
+|===
+| Données d'équipes | Où se trouve-t-il dans la sauvegarde SaaS ? 
+
+
+| E-mail des équipes  a| 
+Microsoft 365 groupes > équipes > SampleTeam > boîte aux lettres
+
+
+
+| Canaux d'équipe  a| 
+Microsoft 365 groupes > équipes > SampleTeam > canaux
+
+
+
+| Documents Channel standard de l'équipe  a| 
+Microsoft 365 Groups > Teams > SampleTeam > SharePoint site > documents > SampleTeam-StdChannel
+
+
+
+| Chat Channel standard pour les équipes  a| 
+* Microsoft 365 Groups > Teams > SampleTeam > Mailbox > conversations > Team Chat
+* Microsoft 365 Groups > Teams > SampleTeam > Mailbox > Mail > Historique des conversations > Team Chat (emplacement réel)
+
+
+
+
+| Documents de distribution privés de l'équipe  a| 
+SharePoint > SampleTeam – SampleTeam-PrivChannel > documents > SampleTeam-PrivChannel
+
+
+NOTE: Vous trouverez une collection de sites distincte portant le nom «<Nom de votre équipe – Nom de canal privé> ». Vous pouvez filtrer ces collections de site avec l'ID modèle : TEAMCHANNEL#0.
+
+
+
+| Chat privé Channel pour les équipes  a| 
+* Exchange > « User in Private Channel » > Mail > conversations > Team Chat
+* Exchange > « utilisateur dans un canal privé » > Mail > Historique des conversations > discussion d'équipe (emplacement réel)
+
+
+
+
+| Discussions individuelles des utilisateurs et discussions de groupe  a| 
+* Exchange > « utilisateur » > Mail > conversations > Team Chat
+* Échange > « utilisateur » > courrier > Historique des conversations > discussion d'équipe (emplacement réel)
+
+
+
+
+| Fichiers partagés dans les discussions individuelles des utilisateurs et les conversations de groupe  a| 
+OneDrive > « utilisateur » > fichiers > Microsoft Teams Chat
+
+|===

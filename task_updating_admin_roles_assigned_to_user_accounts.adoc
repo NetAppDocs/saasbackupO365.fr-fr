@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task_updating_admin_roles_assigned_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, update, updating, changing 
+summary: 'Si une mise à jour des rôles administratifs d"un utilisateur est effectuée, l"utilisateur est automatiquement déconnecté de SaaS Backup pour Microsoft 365. Lorsque l"utilisateur se reconnecte, les mises à jour des rôles administratifs sont répercutées dans le compte de l"utilisateur.' 
+---
+= Mettre à jour les rôles administratifs affectés aux comptes d'utilisateur
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si une mise à jour des rôles administratifs d'un utilisateur est effectuée, l'utilisateur est automatiquement déconnecté de SaaS Backup pour Microsoft 365. Lorsque l'utilisateur se reconnecte, les mises à jour des rôles administratifs sont répercutées dans le compte de l'utilisateur.
+
+.Étapes
+. Cliquez sur l'icône Paramètres image:configure_icon.gif["Capture d'écran de l'icône de configuration"] À côté de votre ID utilisateur dans le coin supérieur gauche de l'écran.
+. Cliquez sur *PARAMÈTRES DU COMPTE*.
+. Cliquez sur *GESTION DES RÔLES*.
+. Cliquez sur *mettre à jour l'utilisateur* en regard du nom d'utilisateur que vous souhaitez mettre à jour.
+. Cliquez sur le menu déroulant pour sélectionner le rôle. Vous pouvez attribuer un ou plusieurs rôles à un utilisateur.
+. Cliquez sur *confirmer*.
+

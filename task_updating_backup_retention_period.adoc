@@ -1,0 +1,61 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_retention_period.html 
+keywords: netapp, saas backup, microsoft 365, backup, retention, period, update, updating, specific, tier, tenants 
+summary: 'Vous pouvez mettre à jour la durée, en nombre d"années, des données conservées pour des niveaux individuels, des boîtes aux lettres, des sites et des Mysites sur 7 ans, 10 ans ou un nombre illimité.' 
+---
+= Mettez à jour la période de conservation des sauvegardes
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Vous pouvez mettre à jour la durée, en nombre d'années, des données conservées pour des niveaux individuels, des boîtes aux lettres, des sites et des Mysites sur 7 ans, 10 ans ou un nombre illimité. Si l'abonnement est actif, SaaS Backup conserve les données de sauvegarde pendant la période de conservation. Si tous vos niveaux de sauvegarde ont la même période de conservation, vous pouvez effectuer une mise à jour globale pour modifier simultanément la période de conservation de tous les locataires.
+
+
+
+== Mettre à jour la période de conservation des sauvegardes pour un niveau spécifique
+
+.Étapes
+. Dans *Dashboard*, cliquez sur n'importe quel service.
+. Sous *stratégies de sauvegarde*, cliquez sur le menu déroulant en regard de *PÉRIODE DE RÉTENTION* pour le niveau que vous souhaitez modifier.
+. Sélectionnez la période de rétention souhaitée dans la liste prédéfinie.
+. CLIQUEZ SUR *METTRE À JOUR LA PÉRIODE DE RÉTENTION*.
+
+
+
+
+== Mettre à jour la période de conservation des sauvegardes pour chaque utilisateur et locataire
+
+.Étapes
+. Cliquez sur l'icône de configuration image:configure_icon.gif["Icône de configuration"] À côté de votre ID utilisateur SaaS Backup dans le coin supérieur gauche.
+. Cliquez sur *PARAMÈTRES DU COMPTE*.
+. CLIQUEZ SUR *CONSERVER ET PURGER*.
+. Pour mettre à jour la stratégie de conservation des données pour un utilisateur spécifique dans un service spécifique, procédez comme suit :
++
+.. Sous *Data Retention Policies*, cliquez sur le menu déroulant en regard de *TYPE DE FOURNISSEUR* et sélectionnez le fournisseur.
+.. Cliquez sur le menu déroulant en regard de *NOM DE SERVICE* et sélectionnez le service.
+.. Cliquez sur le menu déroulant en regard de *PÉRIODE DE RÉTENTION* et sélectionnez la période souhaitée dans la liste des temps prédéfinis.
+.. Dans la zone de recherche, commencez à saisir l'utilisateur, le site ou le site que vous souhaitez mettre à jour.
+.. Sélectionnez l'utilisateur, le site ou MySite que vous souhaitez dans les résultats correspondants.
+.. Cliquez sur image:bluecircle_icon.gif["Signe plus"].
+.. Continuez à rechercher et à ajouter des boîtes aux lettres individuelles, des sites ou des Mysites selon les besoins.
+.. Cliquez sur *Enregistrer*. Les boîtes aux lettres, sites ou Mysites que vous avez sélectionnés sont mis à jour pour la période de conservation sélectionnée.
+
+
+. Pour mettre à jour la stratégie de conservation des données au niveau du locataire, procédez comme suit :
++
+.. Sous *règles de conservation des données au niveau du locataire*, cliquez sur le menu déroulant en regard de *PÉRIODE DE RÉTENTION* et sélectionnez la période souhaitée dans la liste des heures prédéfinies.
+.. Cliquez sur *Enregistrer*. Tous les niveaux de stratégie de sauvegarde sont mis à jour jusqu'à la période de conservation que vous avez sélectionnée.
+
+
+

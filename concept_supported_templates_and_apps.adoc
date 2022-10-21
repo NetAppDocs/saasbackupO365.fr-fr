@@ -1,0 +1,88 @@
+---
+sidebar: sidebar 
+permalink: concept_supported_templates_and_apps.html 
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps 
+summary: Seuls certains modèles et applications sont pris en charge pour Microsoft SharePoint Online. 
+---
+= Modèles et applications pris en charge pour la sauvegarde dans Microsoft SharePoint Online
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:allow-uri-read: 
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Seuls certains modèles et certaines applications sont pris en charge pour les sauvegardes Microsoft SharePoint Online.
+
+
+
+== Modèles pris en charge
+
+Seuls les modèles suivants sont pris en charge pour les sauvegardes Microsoft SharePoint Online.
+
+* STS#0 (site d'équipe)
+* BLOG n°0 (site du blog)
+* DEV#0 (site du développeur)
+* PROJECTSITE#0 (site du projet)
+* COMMUNAUTÉ#0 (site de la communauté)
+* BDR#0 (Centre de documents)
+* COMMUNITYPORTAL#0 (Portail communautaire)
+* ENTERWIKI#0 (ENTERPRISE WIKI)
+* EHS n° 1 (site racine)
+* EHS#0 (site racine)
+* SITEPAGEPUBLISHING#0 (site de communication)
+* GROUPE#0 (préfixe de collecte de site de groupe)
+* STS#1 (site vide)
+* STS#2 (espace de travail document)
+* STS#3 (site de l'équipe moderne)
+* APP#0 (modèle d'application)
+
+
+
+
+== Applications prises en charge
+
+Les applications suivantes sont prises en charge pour les sauvegardes Microsoft SharePoint Online.
+
+* Liste personnalisée
+* Badge (site de la communauté)
+* Bibliothèque de documents
+* Bibliothèque de styles
+* Enquête
+* Lien
+* Annonce
+* Contactez
+* Calendrier
+* Comité de discussion
+* Photos
+* Bibliothèque d'images
+* Contenu Web Parts
+* Galerie de modèles de listes
+* Galerie de gabarits
+* Pages du site
+* Liste personnalisée dans la vue ensemble de données
+* Galerie de solutions
+* Galerie d'attractions
+* Looks composés
+* Liens promus
+* Tâches
+* Billets (site de blog)
+* Commentaires (site de blog)
+* Discussions de la communauté (site de la communauté)
+* Catégories (site de blog)
+* Catégories de communauté (site communautaire)
+* Rapport
+* Pages wiki
+* Images de collection de sites
+* Membres de la communauté (site communautaire)
+* Suivi des problèmes
+* Bibliothèque d'enregistrements
+* Partage de liens
+

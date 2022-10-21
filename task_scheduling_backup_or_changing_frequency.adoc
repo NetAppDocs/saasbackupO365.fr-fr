@@ -1,0 +1,62 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_backup_or_changing_frequency.html 
+keywords: netapp, saas backup, microsoft 365, schedule, scheduling, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+summary: 'Suivez la même procédure pour planifier une nouvelle sauvegarde ou la modifier selon la fréquence d"une sauvegarde actuelle.' 
+---
+= Permet de programmer une sauvegarde ou de modifier la fréquence des sauvegardes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez sauvegarder vos données non protégées en les affectant à une stratégie de sauvegarde. Lorsque des données non protégées sont affectées à une stratégie de sauvegarde, elles passent à un état *EN ATTENTE* jusqu'à ce que la prochaine sauvegarde planifiée de la stratégie affectée se produise, après quoi elles sont déplacées à un état *PROTÉGÉ*. Si vous souhaitez modifier la fréquence de sauvegarde des données protégées, vous pouvez affecter ces données à un autre niveau de stratégie de sauvegarde.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur le numéro ci-dessus *PROTÉGÉ* ou *NON PROTÉGÉ* dans la zone du service que vous souhaitez modifier. Si vous souhaitez modifier la fréquence de sauvegarde des données protégées, cliquez sur *PROTÉGÉ*. Si vous souhaitez sauvegarder les boîtes aux lettres, sites ou Mysites nouvellement découverts, sélectionnez *NON PROTÉGÉS*.
++
+image:number_protected_unprotected.gif[""]
+
+. Sélectionnez vos options de sauvegarde.
++
+.. Pour Exchange
++
+*** Si vous sauvegardez des boîtes aux lettres partagées (niveau 3 uniquement), cliquez sur l'onglet *PARTAGÉ*.
+*** Si vous sauvegardez des boîtes aux lettres d'archives (niveau 3 uniquement), cliquez sur l'onglet *ARCHIVE*.
+*** Si vous sauvegardez ou modifiez des boîtes aux lettres régulières, restez dans l'onglet *USER*.
+
+
+.. Pour SharePoint
++
+*** Si vous sauvegardez ou modifiez la stratégie de sauvegarde pour les sites, restez dans l'onglet *SITES*.
+
+
+.. Pour OneDrive
++
+*** Si vous sauvegardez ou modifiez la stratégie de sauvegarde pour les utilisateurs, restez dans l'onglet *USER*.
+
+
+.. Pour les groupes Microsoft 365
++
+*** Si vous sauvegardez des groupes (niveau 3 uniquement), restez dans l'onglet *GROUPES*.
+*** Si vous sauvegardez des équipes (niveau 3 uniquement), cliquez sur l'onglet *ÉQUIPES*.
+
+
+
+
+. Sélectionnez les éléments à sauvegarder.
+. Cliquez sur le menu *groupes*.
++
+image:groups_menu.gif["Menu groupes"]
+
+. Sélectionnez le nouveau niveau de règles pour la sauvegarde.
++
+
+NOTE: Les groupes Microsoft 365 et les boîtes aux lettres d'archivage ne peuvent être déplacés qu'vers la stratégie de niveau 3.
+
+. Cliquez sur *appliquer*.
+

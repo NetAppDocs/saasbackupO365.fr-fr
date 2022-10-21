@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: task_using_advanced_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange 
+summary: Vous pouvez activer la recherche avancée pour rechercher des éléments sauvegardés dans Microsoft 365 Exchange Online. 
+---
+= Utilisez la fonction de recherche avancée pour Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez utiliser *recherche avancée* pour Microsoft Exchange Online pour rechercher des éléments individuels ou partagés de boîte aux lettres et restaurer ces éléments dans leur boîte aux lettres d'origine.
+
+Les administrateurs peuvent activer *recherche avancée* en accédant à link:https://mysupport.netapp.com/["Assistance"] et de soumettre une demande. Vous pouvez également envoyer un e-mail à l'équipe de support SaaS Backup à l'adresse saasbackupsupport@netapp.com.
+
+Après avoir activé *Advanced Search*, vous pouvez activer le portail en libre-service (SSP) pour les locataires individuels. Si vous n'activez pas *recherche avancée* avant votre première sauvegarde, aucun résultat de recherche n'apparaît. Pour en savoir plus sur le portail en libre-service, reportez-vous à la section link:reference_about_ssp.html["À propos du portail en libre-service"].
+
+image:advanced_search_settings_exchange.png["Capture d'écran des paramètres de recherche avancés"]
+
+*  Advanced Search
+*  a search
+*  previous search jobs
+
+
+
+
+== Activez la recherche avancée
+
+Vous pouvez activer la fonction *recherche avancée* dans Paramètres de recherche avancée.
+
+
+NOTE: Les utilisateurs sous licence et sans licence peuvent utiliser la fonction de recherche avancée si elle est activée.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur *recherche avancée* dans le menu de gauche.
+. Cliquez sur *Paramètres de recherche avancés*.
++
+** Par défaut, la liste affiche tous les utilisateurs sous licence. Basculer entre *Afficher tous les utilisateurs* et *Afficher uniquement les utilisateurs sous licence* pour filtrer le type d'utilisateur dans la liste.
+** Utilisez l'outil de recherche et saisissez au moins trois caractères pour trouver un utilisateur unique.
+
+
+. Pour activer un utilisateur, dans la colonne *recherche avancée*, sélectionnez *activé*. La prochaine fois que vous protégez cet utilisateur activé dans une sauvegarde complète ou incrémentielle, vous pouvez effectuer une recherche de tout nouvel élément de courrier électronique.
+. Cliquez sur *Enregistrer les paramètres*.
+. Pour sauvegarder les utilisateurs activés, accédez à link:task_scheduling_backup_or_changing_frequency.html["Planification d'une sauvegarde ou modification de la fréquence de sauvegarde"] Et restez sur l'onglet *utilisateur* pour sélectionner les utilisateurs à sauvegarder.
+
+
+
+
+== Effectuez une recherche
+
+Vous pouvez rechercher des éléments de boîte aux lettres individuels ou partagés et restaurer ces éléments dans leur boîte aux lettres d'origine sous *effectuer la recherche*.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur *recherche avancée* dans le menu de gauche.
+. Cliquez sur *effectuer la recherche*.
+. Entrez les informations dans les champs obligatoires avec un astérisque (*). Champs facultatifs : conditions et conditions de requête.image:advanced_search_box.png["L'image montre les options effectuer la recherche avec deux éléments requis"]
++
+** *Sélectionner utilisateur* : saisissez au moins trois lettres dans le nom de l'utilisateur pour trouver l'utilisateur que vous souhaitez sélectionner.
+** *Rechercher* : saisissez au moins trois caractères dans un mot-clé. Si vous voulez rechercher une phrase, placez les mots dans la phrase à l'intérieur des citations (exemple : « Hello World »). Si les mots peuvent être recherchés séparément, les devis ne sont pas nécessaires.
+** *Exact Match*: Sélectionnez si vous souhaitez rechercher uniquement les mots-clés exacts.
+** *Conditions*:
++
+*** *Éléments* : sélectionnez les éléments pour rechercher tous les éléments de la boîte aux lettres.
+*** *Nom du dossier* : sélectionnez le nom du dossier pour rechercher des éléments dans un dossier spécifique de la boîte aux lettres. Saisissez le nom du dossier dans la zone de texte fournie.
+
+
+** *Plage de dates* : dans le menu déroulant Plage de dates, sélectionnez *derniers 7 jours* ou *Plage personnalisée* pour saisir les dates de début et de fin de la recherche.
+** *Taille en octets* : dans le menu déroulant taille en octets, sélectionnez *supérieur à (>)* ou *moins que (<)*. Entrez ensuite la taille en octets.
+** *De* : saisissez l'adresse e-mail de l'expéditeur.
+** *À* : saisissez l'adresse e-mail du destinataire.
+** *Sujet* : sélectionnez cette option pour effectuer une recherche uniquement par sujet.
+** *A une pièce jointe* : sélectionnez si le ou les éléments de l'e-mail ont des pièces jointes.
+
+
+. Cliquez sur *Rechercher*.
+. Pour trouver votre travail de recherche, allez à trouver des emplois de recherche précédents ci-dessous.
+
+
+
+
+== Rechercher les travaux de recherche précédents
+
+Vous pouvez trouver des travaux de recherche précédents sous *recherche précédente emplois*.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur *recherche avancée* dans le menu de gauche.
+. Cliquez sur *travaux de recherche précédents*.
+. Recherchez le travail de recherche que vous avez effectué précédemment. Si aucun résultat n'apparaît, cela signifie qu'aucun élément ne répond aux conditions que vous avez saisies pour votre recherche.
+. Cliquez sur le nombre total de résultats de recherche pour les afficher.
+. Dans la vue d'affichage des résultats, vous pouvez restaurer des éléments, sélectionner le nombre d'entrées affichées à l'aide du menu déroulant *Afficher # entrées* ou rechercher pour affiner davantage les résultats.
++
+image:search_results_display_view.png["L'image montre la vue d'affichage des résultats de la recherche avec des mises en évidence pour la restauration, le nombre d'entrées et les fonctions de recherche"]
+
++
+
+NOTE: Les éléments restaurés sont de retour à la boîte aux lettres d'origine avec la convention de dénomination CC_search_MM.DD_Time. Pour trouver la tâche de restauration, accédez à *travaux* dans le menu de gauche.
+
+. Pour quitter l'affichage des résultats de votre recherche, cliquez sur *Retour à la recherche de travaux*.
+

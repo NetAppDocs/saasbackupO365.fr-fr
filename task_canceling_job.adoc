@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_canceling_job.html 
+keywords: netapp, saas backup, microsoft 365, cancel, canceling, jobs, backup, restore, immediate 
+summary: 'Si vous avez effectué une sauvegarde immédiate ou une restauration immédiate, mais que vous devez l"annuler avant de la terminer, vous pouvez le faire.' 
+---
+= Annuler un travail
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si vous avez effectué une sauvegarde immédiate ou une restauration immédiate, mais que vous devez l'annuler avant de la terminer, vous pouvez le faire.
+
+.Étapes
+. Cliquez sur image:jobs_button.gif["Capture d'écran du bouton travaux"] dans le volet de navigation de gauche.
+. Sous *travaux en cours d'exécution récents*, cliquez sur le travail que vous souhaitez annuler.
+. Cliquez sur *Annuler*. La progression du travail annulé s'affiche sous *travaux terminés récents*.
+

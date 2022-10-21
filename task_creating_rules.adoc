@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_rules.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, rules, user, users, applied 
+summary: Les règles vous permettent de déplacer automatiquement les utilisateurs vers un niveau de sauvegarde présélectionné en fonction de critères prédéfinis. 
+---
+= Créer de nouvelles règles
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Les règles vous permettent de déplacer automatiquement les utilisateurs vers un niveau de sauvegarde présélectionné en fonction de critères prédéfinis.
+
+Vous pouvez créer des règles pour les groupes Microsoft Exchange Online, OneDrive for Business, SharePoint Online et Microsoft Office 365.
+
+Vous devez appliquer un filtre défini par l'utilisateur à vos données avant de pouvoir créer une règle. Les filtres appliqués s'affichent sous l'icône *Filter*. Les filtres par défaut de NetApp SaaS Backup pour Microsoft 365 s'affichent en gris. Les filtres définis par l'utilisateur apparaissent en bleu clair.image:rules.gif["Exemple de filtre défini par l'utilisateur et de filtre défini par SaaS Backup pour la création de règles"]
+
+#creating-user-defined-filter,Créer un filtre défini par l'utilisateur
+
+Vous pouvez créer plusieurs règles. Les règles sont appliquées dans l'ordre dans lequel elles apparaissent dans la liste *gérer les règles*.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur le chiffre ci-dessus *NON PROTÉGÉ* dans la zone du service pour lequel vous souhaitez créer des règles.
++
+image:number_protected_unprotected.gif[""]
+
++
+Si aucun filtre créé par l'utilisateur n'est appliqué, image:create_rule.gif["Capture d'écran du bouton Créer une règle"] n'apparaît pas.
+
+. Cliquez sur *Filtrer*.
++
+image:filter.gif["Bouton de filtre"]
+
+. Cliquez sur le menu déroulant *Select* et sélectionnez votre filtre. Un champ de recherche s'affiche.
+. Entrez vos critères de recherche.
+. Cliquez sur *appliquer le filtre*.
+. Cliquez sur *Créer règle*.
+. Entrez un nom pour la règle.
+. Pour *Groupe de destination*, sélectionnez le niveau vers lequel vous souhaitez que les utilisateurs qui répondent aux critères de la règle soient déplacés.
+. Sélectionnez *appliquer aux éléments existants* si vous souhaitez que la règle soit immédiatement appliquée à tous les éléments non protégés. Si cette option n'est pas sélectionnée, la règle est appliquée aux éléments récemment découverts et aux éléments non protégés lors de la prochaine découverte de nouveaux éléments.
+. Si vous avez plusieurs règles, vous pouvez cliquer sur image:up_down_rules_icon.gif["Bouton permettant de déplacer les règles vers le haut ou vers le bas en priorité"] pour déplacer une règle vers le haut ou vers le bas dans la liste. Les règles sont appliquées dans l'ordre dans lequel elles apparaissent dans la liste.
+

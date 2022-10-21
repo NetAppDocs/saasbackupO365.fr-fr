@@ -1,0 +1,57 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_policies.html 
+keywords: netapp, saas backup, microsoft 365, backup, policies, byos, provides, storage, tiers, tier 1, tier 2, tier 3, frequency, default, data, retention, 
+summary: SaaS Backup pour microsoft 365 comporte trois niveaux prédéfinis de règles de sauvegarde. Les tiers de ces règles varient en fonction de la fréquence de sauvegarde et de la période de conservation des données, selon que vous utilisiez le stockage fourni par SaaS Backup ou le modèle BYOS. 
+---
+= Politiques de sauvegarde
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup pour Microsoft 365 comporte trois niveaux prédéfinis de règles de sauvegarde. Les tiers de ces règles varient en fonction de la fréquence de sauvegarde et de la période de conservation des données, selon que vous utilisiez le stockage fourni par SaaS Backup ou le modèle BYOS.
+
+Vous pouvez déplacer des données entre ces trois règles, mais vous ne pouvez pas créer de nouvelles règles ni modifier les paramètres des niveaux prédéfinis.
+
+
+
+== Règles de sauvegarde pour le stockage fourni par SaaS Backup
+
+|===
+| Politique de sauvegarde | Fréquence des sauvegardes | Période de conservation des données par défaut 
+
+
+| Niveau 1 | Toutes les 12 heures | 3 ans 
+
+
+| Niveau 2 | Toutes les 18 heures | 3 ans 
+
+
+| Niveau 3 | Toutes les 24 heures | 3 ans 
+|===
+
+NOTE: En tant qu'administrateur, vous pouvez modifier la période de conservation des données pour le stockage fourni par SaaS Backup jusqu'à une période illimitée. Si l'abonnement est actif, SaaS Backup conserve les données de sauvegarde pendant la période de conservation.
+
+
+
+== Stratégies de sauvegarde pour BYOS
+
+BYOS s'adresse uniquement aux clients existants.
+
+|===
+| Politique de sauvegarde | Fréquence des sauvegardes | Période de conservation des données par défaut 
+
+
+| Niveau 1 | Toutes les 12 heures | Illimitée 
+
+
+| Niveau 2 | Toutes les 18 heures | Illimitée 
+
+
+| Niveau 3 | Toutes les 24 heures | Illimitée 
+|===

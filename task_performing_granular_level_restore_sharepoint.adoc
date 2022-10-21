@@ -1,0 +1,191 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_sharepoint.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft SharePoint Online, sites 
+summary: Vous pouvez utiliser SaaS Backup pour Microsoft 365 pour effectuer des restaurations de niveau granulaire pour Microsoft SharePoint Online. 
+---
+= Effectuez une restauration granulaire pour Microsoft SharePoint Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Avec Microsoft SharePoint Online, vous pouvez restaurer des éléments de niveau granulaire pour un seul utilisateur, par exemple des dossiers ou des fichiers individuels. Vous pouvez également restaurer des éléments de niveau granulaire pour un site de groupe Microsoft 365 et des ordinateurs portables OneNote. Les rôles et autorisations de site sont automatiquement protégés dans le cadre d'une restauration ou d'une sauvegarde.
+
+Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration. Les autres options disponibles incluent :
+
+image:backup_for_restore_availability.png["Sauvegardes disponibles pour la restauration"]
+
+Le tableau indique les options de restauration prises en charge pour les éléments de niveau granulaire.
+
+
+NOTE: Pour les options de restauration *Restaurer sur le même site* et *Restaurer sur un autre site*, les éléments suivants sont restaurés sous le site sélectionné avec la convention d'attribution de nom <sitName_cc_> : *site unique*, *sites multiples* et *listes uniques/multiples* si 3 listes ou plus sont sélectionnées.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Type d'élément | Restaurez vos données vers le même site | Restaurez-les vers un autre site | Exporter les données | Où le trouver dans la sauvegarde SaaS 
+
+
+| Un ou plusieurs éléments  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+| SharePoint Online > sites > <Nom du site> > <Nom de la liste> 
+
+
+| Sur un seul site  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| SharePoint Online > sites 
+
+
+| Sites multiples  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+| SharePoint Online > sites 
+
+
+| Sites de communication  a| 
+Non
+ a| 
+Non
+ a| 
+Non
+| SharePoint Online > sites 
+
+
+| Une ou plusieurs sous-sites  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| SharePoint Online > sites > <nom du site> > sous-sites 
+
+
+| Un ou plusieurs dossiers  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| SharePoint Online > sites > <nom du site> > <nom de la liste> 
+
+
+| Listes uniques/multiples  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| SharePoint Online > sites > <nom du site> 
+
+
+| Un ou plusieurs ordinateurs portables OneNote  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| SharePoint Online > sites > <nom du site> > <nom de la liste> 
+
+
+| Un ou plusieurs groupes de sections OneNote  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| SharePoint Online > sites > <site name> > <List name> > <Notebook folder> 
+
+
+| Une ou plusieurs sections OneNote  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+| SharePoint Online > sites > <site name> > <List name> > <Notebook folder> 
+|===
+.Étapes
+. Dans le tableau de bord, cliquez sur le chiffre ci-dessus *PROTECTED* dans la zone SharePoint.
+. Cliquez sur le site dont vous avez besoin pour effectuer la restauration au niveau granulaire.
+. Sélectionnez la catégorie à restaurer.
++
+
+NOTE: Pour restaurer des éléments individuels spécifiques dans une catégorie, cliquez sur la catégorie de contenu, puis sélectionnez les éléments individuels.
+
+. Pour restaurer à partir de la sauvegarde la plus récente, cliquez sur *Restaurer*. Pour restaurer une version précédente de l'élément, cliquez sur *Afficher les versions*, sélectionnez la version à restaurer, puis cliquez sur *Restaurer*.
+. Sélectionnez une option de restauration :
++
+** *Restaurer sur le même site* si vous restaurez sur le même site, par défaut, un dossier de restauration avec l'horodatage actuel est créé à l'emplacement de fichier d'origine contenant la copie de sauvegarde.
++
+Si vous sélectionnez *Restaurer uniquement les rôles*, *remplacer par fusionner* ou *remplacer le contenu existant*, la seule option de restauration est *Restaurer sur le même site*.
+
++
+[cols="24a,24a"]
+|===
+| Si vous sélectionnez | Restaurez vos données vers le même site 
+
+
+ a| 
+Restaurer uniquement les rôles
+ a| 
+tous types d'éléments
+
+
+
+ a| 
+Écraser avec fusion
+ a| 
+tous les éléments sauf le niveau du site
+
+
+
+ a| 
+Remplacez-le par un contenu existant
+ a| 
+niveau d'élément uniquement
+
+|===
++
+Si vous sélectionnez *Restaurer uniquement les rôles*, seuls les rôles et les autorisations sont restaurés.image:sharepoint_granular_restore_only_roles.png["L'image montre une fenêtre de restauration de niveau granulaire avec l'option rôles de restauration uniquement sélectionnée"]
+
++
+Si vous sélectionnez l'option *Ecraser avec fusion*, aucun dossier de restauration n'est créé. Si la version du fichier de sauvegarde et le fichier actuel correspondent, la sauvegarde est restaurée à l'emplacement d'origine. Tout nouveau contenu de la destination est ignoré et n'est pas affecté. Par exemple, si la sauvegarde contient File1 version5 et que la destination contient File1 version 6, une restauration avec l'option *Overwrite with Merge* sélectionnée échoue.
+
++
+Si vous sélectionnez l'option *remplacer le contenu existant*, la version actuelle des données est complètement remplacée par la copie de sauvegarde.
+
+** *Restaurer sur un autre site*
++
+Si vous restaurez vers un autre site, vous devez entrer le site de destination dans le champ de recherche. Vous pouvez saisir une partie du site dans le champ de recherche pour lancer une recherche automatique des sites correspondants.
+
+** *Exportation de données*
++
+Si vous exportez des données, vous devez les télécharger. Accédez à *Rapport* dans le menu de gauche. Recherchez votre travail d'exportation de données. Cliquez sur *nombre total de dossiers*. Cliquez ensuite sur *Exporter lien de téléchargement de données*. Un fichier zip est téléchargé. Ouvrez le fichier zip pour extraire les données.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter données*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+
+
+. Cliquez sur *confirmer*.
++
+Un message s'affiche pour indiquer que le travail de restauration a été créé.
+
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la restauration.
+

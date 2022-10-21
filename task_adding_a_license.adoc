@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_adding_a_license.html 
+keywords: netapp, saas backup, microsoft 365, add, adding, release, license 
+summary: Vous pouvez ajouter ou libérer une licence. 
+---
+= Ajouter une licence
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si vous venez de recevoir une licence pour un abonnement payant, veuillez suivre #workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,workflow pour commencer à utiliser un abonnement payant. Vous entrez votre clé de licence dans le cadre du flux de travail.
+
+Si vous utilisez déjà SaaS Backup, vous pouvez suivre ces étapes pour ajouter des licences supplémentaires.
+
+Les domaines d'éducation peuvent avoir une licence pour le corps professoral et une licence distincte pour les étudiants.
+
+.Étapes
+. Cliquez sur image:services.gif["Capture d'écran du bouton services"] dans le volet de navigation de gauche.
+. Cliquez sur image:bluecircle_icon.gif["Icône signe plus bleu"] dans le coin droit.
+. Entrez les informations de licence.
+. Cliquez sur *Valider l'abonnement*.
+. Cliquez sur *Suivant*.
+. Cliquez sur *Enregistrer*.
+

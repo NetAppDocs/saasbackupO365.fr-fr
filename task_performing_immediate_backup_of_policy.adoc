@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_policy.html 
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy 
+summary: Pour commencer à utiliser SaaS Backup pour Microsoft 365, il vous suffit de décider du type de stockage à utiliser pour sauvegarder vos données, collecter des informations pertinentes, créer un compte de service Microsoft 365 et attribuer des autorisations utilisateur. 
+---
+= Effectuer une sauvegarde immédiate d'une stratégie de sauvegarde spécifique
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Lorsque vous configurez SaaS Backup pour Microsoft 365, toutes vos données ne sont pas protégées par défaut. Après avoir déplacé vos données vers un niveau protégé, vous pouvez effectuer une sauvegarde immédiate du Tier vers lequel vous avez déplacé vos données. Vos données ne sont donc pas menacées avant la première sauvegarde planifiée. Si vous pouvez attendre la première sauvegarde planifiée, il n'est pas nécessaire d'effectuer une sauvegarde immédiate.
+
+Vous pouvez effectuer une sauvegarde immédiate en tout temps nécessaire à la protection des données. Si vous exécutez une version d'évaluation de SaaS Backup pour Microsoft 365, vous ne pouvez effectuer que trois sauvegardes immédiates par jour, par service.
+
+.Étapes
+. Dans le Tableau de bord, sélectionnez le service pour lequel vous souhaitez effectuer une sauvegarde immédiate.
+. Sous *stratégies de sauvegarde*, cliquez sur le niveau à sauvegarder.
+. Cliquez sur Sauvegarder maintenant.
++
+image:backup_now.gif["Capture d'écran du bouton SaaS Backup « Backup Now » (sauvegarde maintenant)"]
+
++
+Un message s'affiche indiquant que les services situés sous le niveau sélectionné seront placés dans la file d'attente des travaux pour une sauvegarde immédiate.
+
+. Cliquez sur *confirmer*. Un message s'affiche pour indiquer que la procédure de sauvegarde a été créée.
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la sauvegarde.
+

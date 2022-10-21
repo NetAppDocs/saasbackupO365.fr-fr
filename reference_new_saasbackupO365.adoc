@@ -1,0 +1,191 @@
+---
+sidebar: sidebar 
+permalink: reference_new_saasbackupO365.html 
+keywords: 'what"s new, features, release notes, enhancements' 
+summary: SaaS Backup pour Microsoft 365 inclut régulièrement une nouvelle version qui présente de nouvelles fonctionnalités, des améliorations et des correctifs. 
+---
+= Nouvelles fonctionnalités et mises à jour
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Plusieurs nouvelles fonctionnalités et mises à jour ont été ajoutées à cette version de NetApp SaaS Backup pour Microsoft 365.
+
+
+
+== Octobre 2022
+
+* La migration des données est désormais possible dans SaaS Backup pour Microsoft 365. Les administrateurs de compte peuvent demander la migration des données vers des compartiments de destination de stockage Amazon S3 et Azure Blob hébergés par le locataire. Découvrez comment link:task_migrate_data.html["migrer des données"].
+* L'outil SaaS Backup Export Utility est maintenant disponible et facilite l'exportation des données migrées vers Amazon S3 et Azure Blob Storage ou vers des compartiments de stockage de destination. Connectez-vous à link:https://mysupport.netapp.com/site/tools["Page des outils de support NetApp"] Recherchez également l'outil d'exportation en bloc NetApp SaaS Backup.
+
+
+
+
+== Novembre 2021
+
+Microsoft 365 vise le 2021 octobre à décompter de l'authentification de base dans Exchange Online. Pour plus d'informations, voir link:https://techcommunity.microsoft.com/t5/exchange-team-blog/basic-authentication-and-exchange-online-september-2021-update/ba-p/2772210["Basic Authentication and Exchange Online - mise à jour de septembre 2021"]. Après la dédépecation, des échecs de découverte peuvent se produire pour les groupes Microsoft 365 et les boîtes aux lettres partagées et archivées. Vous pouvez activer l'authentification moderne à tout moment pour éviter ces échecs.
+
+Si vous êtes un nouveau client, l'authentification moderne est activée lorsque vous vous inscrivez. Aucune action n'est nécessaire.
+
+Si vous êtes déjà client et que vous n'avez pas activé l'authentification moderne, vous devez agir. Voir link:task_enable_modern_authentication.html["Activer l'authentification moderne"].
+
+
+
+== Décembre 2020
+
+Si vous déployez Microsoft Azure aux États-Unis, vos données ne quittent pas votre environnement Microsoft. Lors du processus d'inscription à SaaS Backup pour Microsoft 365, vous pouvez utiliser le stockage Azure Blob ou votre propre stockage.
+
+link:task_signing_up_for_saasbkup_free_trial.html["Inscrivez-vous pour essayer gratuitement SaaS Backup"]
+
+link:task_signing_up_for_saasbkup_paid_subscription.html["Abonnez-vous à SaaS Backup depuis un abonnement payant"]
+
+
+
+== Novembre 2020
+
+* À partir de ce mois-ci, vous pouvez surveiller les données utilisateur de tous les services. Grâce à cette nouvelle fonctionnalité, vous pouvez télécharger un fichier Excel pour surveiller plusieurs types de données utilisateur, comme les adresses e-mail ou url, les types de boîte aux lettres, l'utilisation de la licence, l'état de découverte, la dernière découverte, état de la sauvegarde, niveau de sauvegarde, etc.
++
+link:task_monitoring_data.html["Surveillance des données utilisateur"]
+
+* Vous pouvez maintenant restaurer vos groupes Microsoft Office 365 dans un autre groupe.
++
+link:task_performing_high_level_restore.html["Effectuez une restauration de haut niveau"]
+
+* Les titulaires de licences OneDrive entreprise peuvent libérer des licences et supprimer des utilisateurs sans restrictions.
++
+link:task_releasing_a_user_license.html["Libérer une licence utilisateur"]
+link:task_purging.html["Purge d'un utilisateur, d'une collection de sites ou d'un groupe Microsoft 365"]
+
+* Lorsque vous effectuez une recherche dans le journal de l'historique des travaux, vous pouvez à présent filtrer par état d'achèvement des travaux, en plus du type de travail, du service, de l'heure de début et de l'heure de fin.
++
+link:task_viewing_history_and_activity.html["Afficher l'historique des travaux"]
+
+
+
+
+
+== Juin 2020
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge les fonctionnalités de recherche avancées pour les utilisateurs d'Exchange Online. Une fois la fonction *recherche avancée* activée, vous pouvez rechercher des éléments de boîte aux lettres individuels, partagés et archivés au cours des six derniers mois de données de sauvegarde.
++
+link:task_using_advanced_search.html["Utiliser la recherche avancée"]
+
++
+Pour activer cette fonction, accédez à link:https://mysupport.netapp.com/["Assistance"] et soumettre une demande.
+
++
+Vous pouvez également envoyer un e-mail à l'équipe de support SaaS Backup à l'adresse saasbackupsupport@netapp.com.
+
+
+
+
+
+== Mars/avril 2020
+
+* Vous pouvez désormais sélectionner différentes plages de temps pour parcourir les sauvegardes de Microsoft 365 Exchange, SharePoint, OneDrive for Business et Groups pour les utilisateurs protégés.
++
+image:date_range_browse_feature.gif["L'image affiche les options de plage de temps pour parcourir les sauvegardes"]
+
++
+link:task_browsing_backups.html["Parcourir les sauvegardes"]
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge la sauvegarde vers Microsoft TeamChat. Grâce à cette nouvelle fonctionnalité, vous pouvez sauvegarder et restaurer vos conversations, canaux, onglets, pièces jointes, membres, Et les paramètres trouvés dans Microsoft TeamsChat.
++
+link:task_performing_immediate_backup_of_service.html["Effectuer une sauvegarde immédiate d'un service"]
+
++
+Pour activer cette fonction, accédez à link:https://mysupport.netapp.com/["Assistance"] et soumettre une demande.
+
++
+Vous pouvez également envoyer un e-mail à l'équipe de support SaaS Backup à l'adresse saasbackupsupport@netapp.com.
+
+
+
+
+
+== Janvier 2020
+
+* Vous pouvez maintenant afficher les boîtes aux lettres, sites, mysites, groupes ou comptes qui ont été déprovisionnés.link:task_viewing_deprovisioned.html["Afficher les éléments déprovisionnés"]
+* Les licences utilisateur sont désormais automatiquement release sept jours après la purge des comptes. Vous pouvez afficher la liste des éléments devant être purgés dans les sept jours et la liste des éléments qui ont déjà été purgés.link:task_viewing_purged.html["Afficher la liste des données supprimées"]
+* La sauvegarde des ordinateurs portables Microsoft OneNote est désormais prise en charge pour Microsoft SharePoint Online et OneDrive for Business.link:task_enabling_onenote_backups.html["Activer les sauvegardes pour OneNote"]
+
+
+
+
+== Septembre 2019
+
+* Vous pouvez désormais activer le support pour les abonnements payants de SaaS Backup. L'activation de l'assistance vous permet d'accéder à l'assistance technique par téléphone, par chat en ligne ou par le système de gestion de tickets Web.
++
+link:task_activate_support.html["Activez le support"]
+
+
+
+
+
+== Juin 2019
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge la sauvegarde et la restauration des éléments créés à l'aide de la fonctionnalité de copie vers dans Microsoft SharePoint Online et Microsoft OneDrive entreprise.
+* Des améliorations ont été apportées pour inclure des détails supplémentaires dans les statistiques de restauration, notamment la taille de restauration, l'emplacement de restauration et d'autres commentaires.
+
+
+
+
+== À mai 2019
+
+* SaaS Backup prend désormais en charge les licences d'extension.
++
+link:task_updating_subscription_information.html["Mettez à jour les informations d'abonnement"]
+
+
+
+
+
+== Avril 2019
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge la suppression des groupes de sécurité.
++
+link:task_deleting_security_groups.html["Supprimer des groupes de sécurité"]
+
+* Les boîtes aux lettres partagées ne consomment plus de licence utilisateur.
+
+
+
+
+== Mars 2019
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge plusieurs emplacements de sauvegarde dans chaque région.
++
+Vous pouvez désormais choisir l'un des emplacements disponibles dans la région sélectionnée comme site de sauvegarde de vos données. Il est recommandé de choisir l'emplacement géographique le plus proche de l'emplacement de vos données. L'emplacement recommandé par SaaS Backup est marqué comme *préféré* dans la liste des options.
+
++
+
+NOTE: Si vous effectuez une mise à niveau à partir d'une version d'essai et que vous choisissez un emplacement de sauvegarde différent de celui utilisé dans votre essai, vos données d'essai ne sont pas conservées.
+
++
+link:task_upgrading_from_trial.html["Mise à niveau à partir d'un abonnement d'essai"]
+
+* Vous pouvez désormais libérer des licences utilisateur et les rendre disponibles pour d'autres utilisateurs.link:task_releasing_a_user_license.html["Libérer une licence utilisateur"]
+
+
+
+
+== Février 2019
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge :
++
+** Sauvegarde et restauration des boîtes aux lettres d'archivage.
+** Statistiques de sauvegarde et de restauration améliorées sur Microsoft Office Exchange Online, SharePoint et OneDrive for Business.
+
+
+
+
+
+
+== Archivé
+
+Cliquez sur link:reference_new_archived.html["ici"] pour la liste archivée des nouvelles fonctionnalités

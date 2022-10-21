@@ -1,0 +1,53 @@
+---
+sidebar: sidebar 
+permalink: task_performing_search.html 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
+summary: Vous pouvez utiliser la recherche intégrée pour trouver du contenu spécifique. 
+---
+= Effectuez une recherche
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dans SaaS Backup pour Microsoft 365, vous pouvez rechercher vos données protégées dans tous les services : Exchange Online, SharePoint Online, OneDrive for Business, Groups et Teams.
+
+Vous pouvez rechercher des instances non protégées, mais les résultats de recherche ne seront obtenus que si des sauvegardes précédentes ont été effectuées.
+
+Pour améliorer vos résultats de recherche, utilisez les critères suivants :
+
+* Trois caractères minimum
+
+
+
+NOTE: Si vous saisissez plus de 3 caractères, les résultats de recherche précédents de 3 caractères peuvent rester dans les résultats de votre recherche.
+
+* Saisie alphanumérique
+* Guillemets simples pour une correspondance exacte d'un mot, d'une chaîne de mots ou d'un nombre. Ex : « Budget 2014 ».
+
+
+Suivez les étapes ci-dessous pour rechercher vos instances protégées.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur le numéro ci-dessus *Protected* dans le service dans lequel vous souhaitez effectuer la recherche.image:number_protected_unprotected_highlight_protected.gif["capture d'écran des instances protégées mises en surbrillance"]
+. Recherchez la zone de recherche dans le coin supérieur droit de la page.image:search_box_exchange.png["Capture d'écran de la zone de recherche dans Exchange Online"]
++
+Entrez ensuite les informations que vous voyez dans la zone de recherche, telles que "nom" ou "e-mail" dans la zone de recherche.image:search_box_exchange_prompts.png["Capture d'écran de la zone de recherche avec les invites de recherche dans Exchange Online"]
+
++
+.. Recherchez Microsoft Exchange Online par nom ou adresse électronique.
+.. Recherchez par nom, e-mail ou MySite pour Microsoft OneDrive entreprise.
+.. Recherchez Microsoft SharePoint Online par nom de site ou url.
+.. Rechercher par nom de groupe ou nom d'équipe pour groupes et équipes Microsoft 365.
+
+
+. Les résultats correspondant aux critères de recherche s'affichent.
+
+
+Vous pouvez également effectuer une recherche à des niveaux de granularité plus élevés au sein de chaque service. Si vous voyez un menu déroulant à droite de la zone de recherche, sélectionnez *fichier* ou *dossier* dans le menu déroulant pour affiner vos résultats de recherche.
+
+image:search_box_dropdown_menu_file&folder.png["zone de recherche avec menu déroulant fichier/dossier"]

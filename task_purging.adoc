@@ -1,0 +1,28 @@
+---
+sidebar: sidebar 
+permalink: task_purging.html 
+keywords: netapp, saas backup, microsoft 365, purge, purged, purging, site collection, groups 
+summary: 'Vous pouvez gérer votre service de différentes façons dans NetApp SaaS Backup, notamment l"activation d"un nouveau service, la désactivation d"un service existant, la suppression de données et l"annulation d"une tâche.' 
+---
+= Purge d'un utilisateur, d'une collection de sites ou d'un groupe Microsoft 365
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez supprimer complètement toutes les données associées à un utilisateur, à une collection de sites ou à un groupe Microsoft 365. Les données supprimées peuvent être récupérées pendant sept jours. Après sept jours, les données sont définitivement supprimées et la licence utilisateur est automatiquement libérée.
+
+.Étapes
+. Cliquez sur l'icône de configuration image:configure_icon.gif["Capture d'écran de l'icône de configuration"] À côté de votre identifiant utilisateur SaaS Backup, dans le coin supérieur gauche.
+. Sélectionnez *PARAMÈTRES DE COMPTE*.
+. CLIQUEZ SUR *CONSERVER ET PURGER*.
+. Sous *Purge des données*, sélectionnez *Type de service* (Exchange, OneDrive ou SharePoint) dans le menu déroulant.
+. Recherchez l'utilisateur, la collection de sites ou le groupe Microsoft 365 que vous souhaitez purger. Pour Microsoft Exchange Online ou OneDrive for Business, entrez le nom de l'utilisateur ou du groupe Microsoft 365. Pour SharePoint Online, entrez le nom de la collection du site. + REMARQUE : si l'utilisateur dispose d'une boîte aux lettres d'archive, le nom d'utilisateur de la boîte aux lettres d'archive est préfixé par « archive sur place ».
+. Lorsque les résultats de la recherche sont à nouveau recherchés, cliquez sur le bouton image:bluecircle_icon.gif["Icône signe plus bleu"] Pour sélectionner l'utilisateur, la collection de sites ou le groupe Microsoft 365.
+. Cliquez sur *Enregistrer*.
+. Cliquez sur *Oui* pour confirmer que vous souhaitez purger les données.
+

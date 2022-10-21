@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_releasing_a_user_license.html 
+keywords: netapp, saas backup, release, releasing, reassigned, user, license, shared, regular, archive, mailbox 
+summary: 'Tout utilisateur de boîte aux lettres classique ou d"archivage, protégé ou non, utilise une licence. Si une licence n"est plus nécessaire pour un utilisateur particulier, vous pouvez la libérer afin qu"elle puisse être réaffectée.' 
+---
+= Libérer une licence utilisateur
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Tout utilisateur de boîte aux lettres classique ou d'archivage, protégé ou non, utilise une licence. Si une licence n'est plus nécessaire pour un utilisateur particulier, vous pouvez la libérer afin qu'elle puisse être réaffectée. Lorsqu'une licence utilisateur est libérée, l'utilisateur est transféré au niveau non protégé et les sauvegardes pour cet utilisateur sont abandonnées.
+
+
+NOTE: Les boîtes aux lettres partagées n'utilisent pas de licence.
+
+.Étapes
+. Cliquez sur image:configure_icon.gif["Capture d'écran de l'icône de configuration"] À côté de votre identifiant utilisateur SaaS Backup, dans le coin supérieur gauche.
+. Sélectionnez *PARAMÈTRES DE COMPTE*.
+. CLIQUEZ SUR *CONSERVER ET PURGER*.
+. Sous *Licence de libération*, commencez à saisir le nom de compte de l'utilisateur dont vous souhaitez délivrer la licence.
+. Une fois le compte trouvé, sélectionnez-le dans la liste à remplissage automatique et cliquez sur image:bluecircle_icon.gif["Icône signe plus bleu"].
+. Ajoutez des comptes supplémentaires, le cas échéant.
+. Cliquez sur *version*.
+. Cliquez sur *Oui, veuillez libérer la ou les licences*.
+. Cliquez sur *confirmer*.
+

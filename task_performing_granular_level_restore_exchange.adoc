@@ -1,0 +1,187 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_exchange.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes, self service portal 
+summary: Vous pouvez utiliser SaaS Backup pour Microsoft 365 pour effectuer des restaurations de niveau granulaire pour Microsoft Exchange Online 365. 
+---
+= Effectuez une restauration granulaire pour Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Dans Microsoft Exchange Online, vous pouvez restaurer des éléments de niveau granulaire pour un seul utilisateur, par exemple des e-mails, des tâches, des contacts et des événements de calendrier. Vous pouvez également restaurer les éléments de niveau granulaire pour une boîte aux lettres de groupe Microsoft 365.
+
+Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration. Les autres options disponibles incluent :
+
+image:backup_for_restore_availability.png["Sauvegardes disponibles pour la restauration"]
+
+Le tableau indique les options de restauration prises en charge pour les éléments de niveau granulaire pour Exchange Online.
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| Type d'élément | Restauration vers la même boîte aux lettres | Restaurez vers une autre boîte aux lettres | Exporter vers PST/Exporter au format HTML | Où le trouver dans la sauvegarde SaaS 
+
+
+ a| 
+Courrier/tâche/Contacts/etc
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs
+
+
+
+ a| 
+Dossiers de boîtes aux lettres uniques ou multiples (boîte de réception, archivage, etc.)
+
+*Note* : exclut l'historique des conversations.
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs > <Nom d'utilisateur>
+
+
+
+ a| 
+Niveau dossier sous boîte de réception
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs > <Nom d'utilisateur>
+
+
+
+ a| 
+Niveau de sous-dossier sous boîte de réception
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs > <Nom d'utilisateur>
+
+
+
+ a| 
+Historique des conversations dans le dossier courrier
+ a| 
+Non
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs > <Nom d'utilisateur>
+
+
+
+ a| 
+Restauration au niveau d'un ou plusieurs éléments
+ a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs > <Nom d'utilisateur>
+
+
+
+ a| 
+Éléments à restaurer unique ou multiples pour « remplacer le contenu existant »
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Non
+ a| 
+Exchange Online > boîtes aux lettres - utilisateurs > <Nom d'utilisateur>
+
+|===
+.Étapes
+. Dans le tableau de bord, cliquez sur le chiffre ci-dessus *PROTECTED* dans la zone Exchange.
++
+image:number_protected_exchange.gif["Capture d'écran du nombre d'instances protégées dans Exchange"]
+
+. Sélectionnez votre option de restauration.
++
+.. Pour les boîtes aux lettres partagées, cliquez sur l'onglet *PARTAGÉ*.
+.. Pour les boîtes aux lettres d'archives, cliquez sur l'onglet *ARCHIVE*.
+.. Pour les boîtes aux lettres ordinaires, restez sur l'onglet *USER*.
+
+
+. Cliquez sur la boîte aux lettres dont vous avez besoin pour effectuer la restauration granulaire.
+. Restaurez une catégorie Microsoft Office Exchange complète ou un élément spécifique d'une catégorie. Pour une boîte aux lettres Microsoft 365 Groups, vous avez uniquement la possibilité de restaurer à partir de la catégorie de messagerie ou de la catégorie de calendrier.
+. Sélectionnez la catégorie (courrier, tâches, Contacts ou autre) à restaurer.
++
+
+NOTE: Si vous souhaitez restaurer un seul élément à l'intérieur de la catégorie, cliquez sur la catégorie, puis sélectionnez les éléments à restaurer.
+
+. Cliquez sur *Restaurer*.
+. Sélectionnez une option de restauration.
++
+** *Restaurer dans la même boîte aux lettres*
++
+Si vous restaurez vers la même boîte aux lettres, par défaut, un dossier de restauration avec l'horodatage actuel est créé à l'emplacement de contenu d'origine contenant la copie de sauvegarde. Si vous sélectionnez *remplacer le contenu existant*, vos données actuelles sont complètement remplacées par la sauvegarde.
+
++
+Pour les groupes Microsoft 365, vous n'avez qu'une option de restauration vers la même boîte aux lettres. Le contenu existant est remplacé par défaut. Pour Microsoft Exchange Online, vous pouvez effectuer la restauration vers la même boîte aux lettres et remplacer le contenu existant ou effectuer la restauration vers une autre boîte aux lettres.
+
+** *Restaurer dans une autre boîte aux lettres*
++
+Si vous restaurez vers une autre boîte aux lettres, vous devez entrer la boîte aux lettres de destination dans le champ de recherche. Vous pouvez saisir une partie de l'adresse e-mail de destination dans le champ de recherche pour lancer une recherche automatique des boîtes aux lettres de destination correspondantes.
+
+** *Exporter vers PST*
++
+Vous pouvez choisir d'inclure tous les sous-dossiers de catégorie.
+
++
+Si vous exportez vers PST, vous recevrez un e-mail de notification indiquant l'emplacement du fichier PST une fois l'exportation terminée.
+
++
+
+NOTE: Cette option n'est pas disponible pour les groupes Microsoft 365.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter vers PST*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+** *Exporter vers données* (disponible pour les groupes Microsoft 365 uniquement) :
++
+Si vous exportez, deux fichiers zip sont créés, un fichier zip pour la boîte aux lettres groupes Microsoft 365 et un autre fichier zip pour les sites SharePoint groupes Microsoft 365. Vous recevrez un e-mail de notification contenant l'emplacement du fichier PST et une URL authentifiée à l'emplacement du fichier .zip.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter vers données*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+
+
+. Cliquez sur *confirmer*.
++
+Un message s'affiche pour indiquer que le travail de restauration a été créé.
+
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la restauration.
+
+
+Pour en savoir plus sur l'utilisation du portail en libre-service pour restaurer des éléments pour Microsoft Exchange Online, reportez-vous à la section link:reference_about_ssp.hmtl["À propos du portail en libre-service"].

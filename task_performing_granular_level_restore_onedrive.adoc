@@ -1,0 +1,116 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_onedrive.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business 
+summary: Vous pouvez utiliser SaaS Backup pour Microsoft 365 pour effectuer des restaurations de niveau élevé et granulaire pour Microsoft OneDrive entreprise. 
+---
+= Effectuez une restauration granulaire pour Microsoft OneDrive entreprise
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Microsoft OneDrive entreprise vous permet de restaurer des éléments de niveau granulaire, par exemple des dossiers ou des fichiers individuels, pour une liste ou une bibliothèque. Vous pouvez également restaurer des blocs-notes ou des groupes OneNote.
+
+Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration. Les autres options disponibles incluent :
+
+image:backup_for_restore_availability.png["Sauvegardes disponibles pour la restauration"]
+
+Le tableau indique les options de restauration prises en charge pour les éléments de niveau granulaire pour OneDrive entreprise.
+
+[cols="20,20a,20a,20a,40"]
+|===
+| Type d'élément | Restaurez sur le même site MySite | Restaurez vers un autre MySite | Exporter les données | Où le trouver dans la sauvegarde SaaS 
+
+
+| Un disque  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| OneDrive entreprise > Mysites 
+
+
+| Plusieurs disques  a| 
+Non
+ a| 
+Non
+ a| 
+Non
+| OneDrive entreprise > Mysites 
+
+
+| Un ou plusieurs dossiers  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Oui.
+| OneDrive for Business > Mysites > <Nom du lecteur> > fichiers 
+
+
+| Un ou plusieurs éléments  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+| OneDrive for Business > Mysites > <Nom du disque> > fichiers 
+
+
+| Dossiers de bloc-notes  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+| OneDrive for Business > Mysites > <Nom du disque> > fichiers 
+
+
+| Un ou plusieurs dossiers OneNote  a| 
+Oui.
+ a| 
+Oui.
+ a| 
+Non
+| OneDrive for Business > Mysites > <Nom du lecteur> > fichiers > ordinateurs portables 
+|===
+.Étapes
+. Dans le tableau de bord, cliquez sur le chiffre ci-dessus *PROTECTED* dans la zone OneDrive.
+. Cliquez sur le site MySite dont vous avez besoin pour effectuer la restauration.
+. Sélectionnez le groupe de fichiers.
++
+Pour restaurer des dossiers ou des fichiers individuels au sein d'un groupe, cliquez sur le groupe de fichiers. Pour restaurer tout un dossier, sélectionnez-le. Pour restaurer des fichiers individuels dans un dossier, sélectionnez le dossier contenant les fichiers, puis sélectionnez les fichiers individuels.
+
+. Cliquez sur *Restaurer*.
+. Sélectionnez une option de restauration :
++
+** *Restaurer sur le même site MySite*
++
+Si vous restaurez des fichiers individuels sur le même MySite, par défaut, un dossier de restauration avec la date et l'heure actuelles est créé à l'emplacement de contenu d'origine contenant la copie de sauvegarde.
+
++
+Si vous sélectionnez *remplacer le contenu existant*, vos données actuelles sont complètement remplacées par la sauvegarde.
+
+** *Restaurer sur un autre MySite*
++
+Si vous restaurez vers un autre MySite, vous devez entrer le site de destination MySite dans le champ de recherche. Vous pouvez saisir une partie du site MySite de destination dans le champ de recherche pour lancer une recherche automatique des MySite de destination correspondants.
+
+** *Exportation de données*
++
+Si vous exportez des données, vous devez les télécharger. Accédez à compte rendu dans le menu de gauche. Recherchez votre travail d'exportation de données. Cliquez sur *nombre total de dossiers*. Cliquez ensuite sur *Exporter lien de téléchargement de données*. Un fichier zip est téléchargé. Ouvrez le fichier zip pour extraire les données.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter données*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+
+
+. Cliquez sur *confirmer*.
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la restauration.
+

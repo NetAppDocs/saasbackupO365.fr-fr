@@ -1,0 +1,398 @@
+---
+sidebar: sidebar 
+permalink: task_performing_granular_level_restore_teams.html 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft TeamsChat, conversations, channels 
+summary: Vous pouvez utiliser SaaS Backup pour Microsoft 365 groupes/équipes pour réaliser des restaurations de niveau granulaire. 
+---
+= Effectuez une restauration granulaire pour les groupes et équipes Microsoft 365
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Au sein des groupes et équipes Microsoft 365, vous pouvez restaurer des éléments de niveau granulaire, tels que les boîtes aux lettres, SharePoint, conversations, canaux et onglets.
+
+Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration. Les autres options disponibles incluent :
+
+image:backup_for_restore_availability.png["Sauvegardes disponibles pour la restauration"]
+
+Le tableau indique les options de restauration prises en charge pour les éléments de niveau granulaire et où les trouver dans SaaS Backup.
+
+Pour *groupes*
+
+[cols="20a,20a,20a,20a,40a"]
+|===
+| Type d'élément | Restaurez vers le même groupe | Restaurez vers un autre groupe | Exporter les données | Où le trouver dans la sauvegarde SaaS 
+
+
+ a| 
+Un ou plusieurs dossiers
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > groupes > (Nom du groupe) > boîte aux lettres
+
+
+
+ a| 
+Boîte de réception
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > groupes > (Nom du groupe) > boîte aux lettres
+
+
+
+ a| 
+Un ou plusieurs éléments (e-mail ou événement)
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Non
+ a| 
+Groupes Office 365 > groupes > (Nom du groupe) > boîte aux lettres > courrier
+
+|===
+Pour *équipes*
+
+[cols="20a,15a,15a,15a,40a"]
+|===
+| Type d'élément | Restaurer vers la même équipe | Restaurer vers une autre équipe | Exporter les données | Où le trouver dans la sauvegarde SaaS 
+
+
+ a| 
+Un ou plusieurs dossiers
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > équipes > (Nom de l'équipe) > boîte aux lettres
+
+
+
+ a| 
+Boîte de réception
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > équipes > (Nom de l'équipe) > boîte aux lettres > courrier
+
+
+
+ a| 
+Un ou plusieurs éléments (e-mail ou événement)
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Non
+ a| 
+Groupes Office 365 > équipes > (Nom de l'équipe) > boîte aux lettres > courrier
+
+
+
+ a| 
+Conversations/discussions
+ a| 
+Non
+ a| 
+Non
+ a| 
+Oui (exportation au format HTML uniquement)
+ a| 
+* Groupes Office 365 > équipes > (Nom de l'équipe) > boîte aux lettres > conversations > discussion d'équipe
+* Groupes Office 365 > équipes > (Nom de l'équipe) > boîte aux lettres > courrier > Historique des conversations > discussion d'équipe (emplacement réel)
+
+
+
+
+ a| 
+Conversation unique/multiple
+ a| 
+Non
+ a| 
+Non
+ a| 
+Oui (exportation au format HTML uniquement)
+ a| 
+Groupes Office 365 > équipes > (Nom de l'équipe) > boîte aux lettres > Historique des conversations > discussion d'équipe
+
+
+
+ a| 
+Canaux uniques/multiples
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Non
+ a| 
+Groupes Office 365 > équipes > (Nom de l'équipe) > chaînes
+
+*Remarque* : la restauration inclut uniquement le nom de canal et les noms d'onglet.
+
+
+
+ a| 
+Onglets sous chaînes
+ a| 
+Non
+ a| 
+Non
+ a| 
+Non
+ a| 
+Groupes Office 365 > équipes > (Nom de l'équipe) > chaînes
+
+
+
+ a| 
+Documents standard Channel
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > équipes > (nom de l'équipe > site SharePoint > documents > (nom du canal)
+
+
+
+ a| 
+Documents privés des canaux
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+SharePoint > (nom du site du canal privé) > documents > (nom du canal privé)
+
+*Remarque* : vous trouverez une collection de sites distincte portant le nom «<Nom de votre équipe – Nom de canal privé> ». Vous pouvez filtrer ces collections de site avec l'ID modèle : TEAMCHANNEL#0.
+
+
+
+ a| 
+Contenu OneNote
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > équipes > (nom de l'équipe) > site SharePoint > documents > (nom du Channel)
+
+
+
+ a| 
+Contenu wiki
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+Groupes Office 365 > équipes > (nom de l'équipe) > site SharePoint > données Wiki Teams > (nom du canal)
+
+
+
+ a| 
+Fichiers
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Non
+ a| 
+Groupes Office 365 > équipes > (nom de l'équipe) > site SharePoint > documents > (nom du Channel)
+
+
+
+ a| 
+Discussions individuelles avec un utilisateur et discussions de groupe
+
+*Remarque* : les chats sont inclus dans les sauvegardes Exchange Online.
+ a| 
+Non
+ a| 
+Non
+ a| 
+Oui.
+ a| 
+* Exchange > « utilisateur » > Mail > conversations > Team Chat
+* Échange > « utilisateur » > courrier > Historique des conversations > discussion d'équipe
+
+
+
+
+ a| 
+Fichiers dans les discussions individuelles des utilisateurs et les discussions de groupe
+
+*Remarque* : fichiers inclus dans les sauvegardes OneDrive entreprise.
+ a| 
+Oui.
+ a| 
+Non
+ a| 
+Non
+ a| 
+OneDrive > « utilisateur » > fichiers > Microsoft Teams Chat
+
+|===
+
+
+== Restaurez les boîtes aux lettres
+
+Sélectionnez cette restauration granulaire pour restaurer les boîtes de réception, les calendriers et l'historique des conversations.
+
+.Étapes
+. Dans le Tableau de bord, cliquez sur le chiffre ci-dessus *PROTECTED* dans *Microsoft 365 Groups*.
+. Sélectionnez l'onglet *groupes* ou *équipes*.
+. Cliquez sur le groupe ou l'équipe pour lequel vous devez effectuer la restauration granulaire.
+. Sélectionnez la catégorie de boîte aux lettres.
++
+image:granular_level_restore_mailbox_option.gif["illustration de l'option boîte aux lettres mise en surbrillance"]
+
++
+
+NOTE: Pour les groupes, *canaux* n'est pas disponible.
+
++
+** Sélectionnez l'option *Mail* pour restaurer la boîte de réception ou l'historique des conversations sur la même boîte aux lettres ou exporter des données.image:granular_level_restore_mailbox_mail_option.gif["illustration de l'option de courrier mise en surbrillance"]
++
+
+NOTE: Pour les groupes, *conversations* n'est pas disponible.
+
++
+... Pour restaurer une boîte de réception, sélectionnez *Inbox* et cliquez sur *Restaurer*.
++
+.... Sélectionnez *Restaurer dans la même boîte aux lettres* ou *Exporter données*.
++
+Si vous exportez des données, vous devez les télécharger. Accédez à *Rapport* dans le menu de gauche. Recherchez votre travail d'exportation de données. Cliquez sur *nombre total de dossiers*. Cliquez ensuite sur *Exporter lien de téléchargement de données*. Un fichier zip est téléchargé. Ouvrez le fichier zip pour extraire les données.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter données*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+.... Cliquez sur *confirmer*.
+
+
+
+
+** Sélectionnez l'option *Calendrier* pour restaurer le calendrier dans la même boîte aux lettres ou exporter des données.image:granular_level_restore_mailbox_calendar_option.gif["illustration de l'option de calendrier mise en surbrillance"]
++
+... Sélectionnez *Calendrier* et cliquez sur *Restaurer*.
+... Sélectionnez *Restaurer dans la même boîte aux lettres* ou *Exporter données*.
++
+Si vous exportez des données, vous devez les télécharger. Accédez à compte rendu dans le menu de gauche. Recherchez votre travail d'exportation de données. Cliquez sur *nombre total de dossiers*. Cliquez ensuite sur *Exporter lien de téléchargement de données*. Un fichier zip est téléchargé. Ouvrez le fichier zip pour extraire les données.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter données*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+... Cliquez sur *confirmer*.
+
+
+** Sélectionnez l'option *conversations* pour restaurer les conversations. La seule option de restauration est l'exportation au format HTML.image:granular_level_restore_mailbox_conversations_option.gif["illustration de l'option conversations en surbrillance"]
++
+... Sélectionnez les conversations à restaurer et cliquez sur *Restaurer*.
++
+
+NOTE: *Afficher conversations* vous présente une liste de toutes les conversations des derniers "x" jours de sauvegarde jusqu'aux 30 dernières sauvegardes. Par exemple, si vous effectuez une sauvegarde sept fois au cours des cinq derniers jours, vous ne pouvez voir que les conversations des sept dernières sauvegardes.
+
+... Cliquez sur *confirmer*.
+
+
+
+
+
+
+
+
+== Restaurer les sites SharePoint
+
+Sélectionnez cette restauration granulaire pour restaurer les onglets et les pièces jointes.
+
+.Étapes
+. Dans le Tableau de bord, cliquez sur le chiffre ci-dessus *PROTECTED* dans *Microsoft 365 Groups*.
+. Sélectionnez l'onglet *groupes* ou *équipes*.
+. Cliquez sur le groupe ou l'équipe pour lequel vous devez effectuer la restauration granulaire.
+. Sélectionnez l'option site SharePoint.image:granular_level_restore_sharepoint_site_option.gif["illustration de l'option sites mis en surbrillance"]
+. Cliquez sur le site dont vous avez besoin pour effectuer la restauration au niveau granulaire.
+. Sélectionnez la catégorie à restaurer.
++
+
+NOTE: Pour restaurer des éléments individuels spécifiques dans une catégorie, cliquez sur la catégorie de contenu, puis sélectionnez les éléments individuels.
+
+. Cliquez sur *Restaurer*.
+. Sélectionnez une option de restauration :
++
+** *Restaurer sur le même site*
++
+Si vous restaurez sur le même site, par défaut, un dossier de restauration avec l'horodatage actuel est créé à l'emplacement du fichier d'origine contenant la copie de sauvegarde. Si vous sélectionnez l'option *Ecraser avec fusion*, aucun dossier de restauration n'est créé. Si la version du fichier de sauvegarde et le fichier actuel correspondent, la sauvegarde est restaurée à l'emplacement d'origine. Tout nouveau contenu de la destination est ignoré et n'est pas affecté. Par exemple, si la sauvegarde contient File1 version5 et que la destination contient File1 version 6, une restauration avec l'option *Overwrite with Merge* sélectionnée échoue. Si vous sélectionnez l'option *remplacer le contenu existant*, la version actuelle des données est complètement remplacée par la copie de sauvegarde.
+
+** *Exportation de données*
++
+Si vous exportez des données, vous devez les télécharger. Accédez à compte rendu dans le menu de gauche. Recherchez votre travail d'exportation de données. Cliquez sur *nombre total de dossiers*. Cliquez ensuite sur *Exporter lien de téléchargement de données*. Un fichier zip est téléchargé. Ouvrez le fichier zip pour extraire les données.
+
++
+
+NOTE: Si vous sélectionnez l'option de restauration *Exporter données*, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
+
+
+. Cliquez sur *confirmer*.
+
+
+
+
+== Restaurer des canaux
+
+Sélectionnez cette restauration granulaire pour restaurer les canaux.
+
+.Étapes
+. Dans le Tableau de bord, cliquez sur le chiffre ci-dessus *PROTECTED* dans *Microsoft 365 Groups*.
+. Sélectionnez l'onglet *équipes*.
+. Cliquez sur l'équipe dont vous avez besoin pour effectuer la restauration granulaire.
+. Sélectionnez *canaux*.image:granular_level_restore_channel_option.gif["illustration de l'option chaînes mises en surbrillance"]
+. Sélectionnez le canal à restaurer.
+. Cliquez sur *Restaurer*.
+. Sélectionnez l'option de restauration :
++
+.. Cliquez sur *Restaurer vers la même association*.
+.. Cliquez sur *Restaurer vers une autre équipe*.
++
+Pour sélectionner une autre équipe, recherchez l'autre équipe dans la zone de recherche.
+
+
+
+. Cliquez sur *confirmer*.
+

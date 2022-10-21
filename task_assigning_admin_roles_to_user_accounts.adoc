@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_assigning_admin_roles_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, assign, assigning, role-based accounts, administrative roles, privileges, granting, user, users, user accounts 
+summary: 'Vous pouvez attribuer des rôles administratifs à des comptes d"utilisateur pour accorder des privilèges d"administration à des utilisateurs sélectionnés pour un ou plusieurs services.' 
+---
+= Attribuez des rôles administratifs aux comptes d'utilisateur
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez attribuer des rôles administratifs à des comptes d'utilisateur pour accorder des privilèges d'administration à des utilisateurs sélectionnés pour un ou plusieurs services.
+
+Vous pouvez affecter les rôles suivants aux utilisateurs :
+
+* Locataire global : accorde des privilèges d'administration à tous les services, la cible de stockage et les mises à jour de licence (renouvellement/mise à niveau).
+* Administrateur Exchange : accorde des privilèges administratifs à Microsoft Exchange Online uniquement. Les autres services ne peuvent pas être affichés ni modifiés.
+* OneDrive Administrator : accorde des privilèges d'administration à Microsoft OneDrive for Business uniquement. Les autres services ne peuvent pas être affichés ni modifiés.
+* Administrateur SharePoint : accorde des privilèges administratifs à Microsoft SharePoint Online uniquement. Les autres services ne peuvent pas être affichés ni modifiés.
+
+
+.Étapes
+. Cliquez sur l'icône Paramètres image:configure_icon.gif["Capture d'écran de l'icône de configuration"] À côté de votre ID utilisateur dans le coin supérieur gauche de l'écran.
+. Cliquez sur *PARAMÈTRES DU COMPTE*.
+. Cliquez sur *GESTION DES RÔLES*.
+. Cliquez sur le bouton image:bluecircle_icon.gif["Capture d'écran de l'icône sur laquelle vous avez cliqué pour afficher les options de rôle d'utilisateur"] icône.
+. Saisissez l'adresse électronique de l'utilisateur que vous souhaitez ajouter.
+. Cliquez sur le menu déroulant pour sélectionner le rôle. Vous pouvez attribuer un ou plusieurs rôles à un utilisateur.
+. Cliquez sur *confirmer*.
+

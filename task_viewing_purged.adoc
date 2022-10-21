@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_purged.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites 
+summary: 'Vous pouvez afficher une liste de boîtes aux lettres ou de comptes d"utilisateur qui ont été supprimés.' 
+---
+= Afficher la liste des données supprimées
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez afficher une liste de boîtes aux lettres ou de comptes d'utilisateur qui ont été supprimés.
+
+.Étapes
+. Cliquez sur image:configure_icon.gif["Capture d'écran de l'icône de configuration"] À côté de votre identifiant utilisateur SaaS Backup, dans le coin supérieur gauche.
+. Sélectionnez *PARAMÈTRES DE COMPTE*.
+. CLIQUEZ SUR *CONSERVER ET PURGER*.
+. Sous *Purge des données*, cliquez sur *Afficher la liste purgée*.
++
+Vous pouvez afficher une liste d'éléments planifiés à supprimer et une liste d'éléments qui ont déjà été purgés.
+
+

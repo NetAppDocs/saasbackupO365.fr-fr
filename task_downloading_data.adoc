@@ -1,0 +1,45 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_data.html 
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, download, downloading 
+summary: 'Vous pouvez afficher ou télécharger un journal des activités et de l"historique des tâches de SaaS Backup.' 
+---
+= Téléchargez les journaux
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup pour Microsoft 365 stocke un journal de l'historique de vos tâches dans SaaS Backup. Vous pouvez télécharger l'historique des travaux et une liste des travaux terminés.
+
+
+
+== Téléchargez le journal des activités
+
+Un journal est stocké de toutes les activités se produisant dans SaaS Backup pour Microsoft 365. Le journal contient la date de chaque action exécutée ainsi que le nom de l'utilisateur qui a réalisé l'action. Vous pouvez télécharger le journal des activités dans un fichier .csv.
+
+.Étapes
+. Cliquez sur image:reporting.gif["Capture d'écran du bouton de rapport"] dans le volet de navigation de gauche.
+. Cliquez sur l'onglet *Activity Log*. Une liste de toutes les activités de SaaS Backup pour Microsoft 365 s'affiche.
+. Cliquez sur image:download_activitylog.gif["Capture d'écran du bouton de téléchargement dans le coin droit du journal d'activités"]. Le journal des activités est téléchargé sous la forme d'un fichier .csv.
+
+
+
+
+== Téléchargez un journal des tâches terminées
+
+Vous pouvez télécharger une feuille de calcul Excel des tâches terminées avec succès.
+
+.Étapes
+. Cliquez sur *travaux* dans le volet de navigation de gauche.
+. Cliquez sur le travail récemment terminé que vous souhaitez télécharger.
+. Cliquez sur *réussi* sous le nombre de travaux terminés avec succès.
++
+image:completed_jobs.gif["Capture d'écran des travaux terminés"]
+
+. Cliquez sur *Télécharger* en haut à droite. Le journal est téléchargé.
+

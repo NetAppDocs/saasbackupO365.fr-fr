@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_history_and_activity.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, history, activity, log 
+summary: 'Vous pouvez afficher ou télécharger un journal des activités et de l"historique des tâches de SaaS Backup.' 
+---
+= Afficher l'historique des travaux et le journal des activités
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup pour Microsoft 365 stocke un journal de l'historique de vos tâches et un journal de toutes les activités effectuées au sein de SaaS Backup.
+
+
+
+== Afficher l'historique des travaux
+
+Vous pouvez consulter ou télécharger des rapports sur l'historique de vos tâches dans NetApp SaaS Backup pour Office 365. Vous pouvez filtrer votre recherche par type de travail, service, heure de début, heure de fin et état d'achèvement.
+
+.Étapes
+. Cliquez sur *Rapport* dans le volet de navigation de gauche. La liste de tous les travaux de sauvegarde SaaS s'affiche sous l'onglet *Historique des tâches*.
+. Pour filtrer les résultats, cliquez sur *Filter*.
+. Cliquez sur le menu déroulant *Select* et sélectionnez un filtre. Vous pouvez filtrer les informations par stratégie, service, type ou état. Une fois que vous avez sélectionné un filtre, un champ de recherche s'affiche.
+. Entrez vos critères de recherche.
+. Si vous souhaitez ajouter d'autres filtres, cliquez sur *Ajouter filtre*.
+. Cliquez sur *appliquer le filtre*. Les résultats des filtres s'affichent.
+. Cliquez sur n'importe quel travail pour développer la vue pour obtenir des détails supplémentaires sur le travail.
+
+
+
+
+== Afficher le journal des activités
+
+Un journal est stocké de toutes les activités se produisant dans SaaS Backup pour Microsoft 365. Le journal contient la date de chaque action exécutée ainsi que le nom de l'utilisateur qui a réalisé l'action. Vous pouvez filtrer le journal des activités par service et événement. Par exemple, si vous devez afficher toutes les opérations de restauration qui se sont produites pour Microsoft Exchange Online, vous pouvez filtrer le journal des activités pour afficher ces résultats.
+
+.Étapes
+. Cliquez sur *Rapport* dans le volet de navigation de gauche.
+. Cliquez sur l'onglet *Activity Log*. Une liste de toutes les activités de SaaS Backup pour Microsoft 365 s'affiche.
+. Pour filtrer les résultats, cliquez sur *Filter*.
+. Cliquez sur le menu déroulant *Select* et sélectionnez un filtre. Vous pouvez filtrer par service ou événement. Une fois que vous avez sélectionné un filtre, un champ de recherche s'affiche.
+. Entrez vos critères de recherche.
+. Si vous souhaitez ajouter d'autres filtres, cliquez sur *Ajouter filtre*.
+. Cliquez sur *appliquer le filtre*.
++
+Les résultats des filtres s'affichent.
+
+

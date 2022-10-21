@@ -1,0 +1,97 @@
+---
+sidebar: sidebar 
+permalink: reference_new_archived.html 
+keywords: 'what"s new, features, new, release notes, enhancements' 
+summary: SaaS Backup pour Microsoft 365 inclut régulièrement une nouvelle version qui présente de nouvelles fonctionnalités, des améliorations et des correctifs. 
+---
+= Nouvelles fonctionnalités et mises à jour - Archivé
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Voici une liste archivée de nouvelles fonctionnalités ajoutées à SaaS Backup pour Microsoft 365.
+
+
+
+== Décembre 2018
+
+* SaaS Backup pour Microsoft 365 peut désormais être acheté via AppDirect Marketplace et CANCOM Marketplace.
+
+
+
+
+== Août 2018
+
+* L'interface utilisateur a été remaniée pour améliorer l'expérience utilisateur et l'efficacité.
+* Les politiques de conservation des données ont été mises à jour pour permettre la conservation des données pendant 3 ans.#backup_policies,Politiques de sauvegarde
+
+
+
+
+== À mai 2018
+
+* NetApp Cloud Control a été renommé NetApp SaaS Backup pour Microsoft 365.
+* Vous pouvez à présent purger les utilisateurs, les collections de sites et les groupes Microsoft 365, en supprimant entièrement toutes les données associées à SaaS Backup pour Microsoft 365.#purging-a-user-site-collection-or-office-365-group,Purge d'un utilisateur, d'une collection de sites ou d'un groupe Microsoft 365
+* SaaS Backup découvre désormais des groupes publics et privés pour les groupes Microsoft 365.
+
+
+
+
+== Avril 2018
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge les messageries partagées pour Microsoft Office Exchange Online.
++
+Les boîtes aux lettres partagées sont découvertes via l'utilisation d'un compte de service créé automatiquement. Si vous n'avez pas activé le service pour Microsoft Office Exchange Online avant cette mise à jour, le compte de service automatique pour les boîtes aux lettres partagées est créé par SaaS Backup lorsque vous activez Microsoft Office Exchange Online. Si votre service pour Microsoft Office Exchange Online est déjà activé, vous devez autoriser SaaS Backup à créer le compte de service automatique, de sorte que vos boîtes aux lettres partagées puissent être découvertes et sauvegardées. #granting-permissions-to-enable-shared-mailboxes,Accordez des autorisations pour activer les boîtes aux lettres partagées
+
++
+Une fois votre compte de service automatique créé, vos boîtes aux lettres partagées seront automatiquement découvertes lors de la prochaine synchronisation programmée de votre compte utilisateur. Si vous voulez que vos boîtes aux lettres partagées soient découvertes immédiatement, vous pouvez #sdiscovering-new-mailboxes-sites-and-groups,découvrez immédiatement vos comptes utilisateur.
+
+
+
+
+
+== Mars 2018
+
+L'emplacement dans lequel vous entrez un code d'activation pour une version d'évaluation gratuite a été déplacé vers l'assistant Ajout d'un fournisseur de services :
+
+image:subscription_types_free_trial.jpg["Capture d'écran indiquant où vous saisissez un code d'activation dans la page abonnement lorsque l'option essai gratuit est sélectionnée."]
+
+
+
+== Février 2018
+
+* Le filtrage basé sur l'ID de modèle est désormais disponible pour Microsoft SharePoint Online.#creating-a-user-defined-filer,Créer un filtre défini par l'utilisateur
+* Vous pouvez maintenant télécharger le journal d'activité du compte d'utilisateur SaaS Backup pour Microsoft 365 dans un fichier .csv.link:task_downloading_data.html["Téléchargez les journaux"]
+* La synchronisation des comptes d'utilisateur, des sites et des groupes entre SaaS Backup pour Microsoft 365 et votre service est désormais activée par défaut.
+* L'inclusion de l'historique des versions de sauvegarde est désormais activée par défaut. Le nombre de versions par défaut est 20.link:concept_backup_settings.html["Sauvegarder les paramètres"]
+
+
+
+
+== Janvier 2018
+
+* Le journal des activités affiche maintenant le nom de l'ID utilisateur associé à chaque action effectuée dans SaaS Backup pour Microsoft 365.
+* Vous pouvez désormais synchroniser manuellement vos autorisations utilisateur avec Azure Active Directory à partir de SaaS Backup pour Microsoft 365.
+* Microsoft Exchange Online prend désormais en charge l'exportation vers PST pour la restauration au niveau du dossier.
+
+
+
+
+== Novembre 2017
+
+* SaaS Backup pour Microsoft 365 prend désormais en charge Azure Blob en tant qu'option pour le stockage fourni par NetApp SaaS Backup.
+* SaaS Backup pour Microsoft 365 prend désormais en charge les groupes Microsoft 365 pour la sauvegarde et la restauration. Microsoft Exchange Online ou Microsoft SharePoint Online doit être activé avant de pouvoir activer les groupes Microsoft 365. Les groupes Microsoft 365 ne peuvent être protégés que par la stratégie de sauvegarde de niveau 3.
+* Microsoft Exchange Online prend désormais en charge l'exportation vers PST pour la restauration au niveau des boîtes aux lettres.
+
+
+
+
+== Octobre 2017
+
+* Des règles peuvent être créées pour vous permettre de déplacer automatiquement les utilisateurs vers un niveau de sauvegarde présélectionné en fonction de critères prédéfinis. Vous pouvez créer des règles pour Microsoft Exchange Online et Microsoft OneDrive entreprise. Vous ne pouvez pas créer de règles pour Microsoft SharePoint Online.#creating-rules,Créer de nouvelles règles
+

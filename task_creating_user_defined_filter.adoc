@@ -1,0 +1,47 @@
+---
+sidebar: sidebar 
+permalink: task_creating_user_defined_filter.html 
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+summary: 'Vous pouvez filtrer l"affichage de vos boîtes aux lettres, sites ou Mysites pour n"afficher que les résultats correspondant à des critères spécifiques.' 
+---
+= Créer un filtre défini par l'utilisateur
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez filtrer l'affichage de vos boîtes aux lettres, sites ou Mysites pour n'afficher que les résultats correspondant à des critères spécifiques. Par exemple, vous pouvez définir vos filtres de manière à ne voir que les boîtes aux lettres dans un pays donné et dans un certain service au sein de ce pays.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur le chiffre ci-dessus *PROTÉGÉ* ou *NON PROTÉGÉ* dans la zone du service pour lequel vous souhaitez créer un filtre. Le nombre ci-dessus PROTÉGÉ indique le nombre de boîtes aux lettres, de Mysites ou de groupes actuellement protégés par une stratégie de sauvegarde. Le nombre ci-dessus NON PROTÉGÉ indique le nombre de boîtes aux lettres, de Mysites ou de groupes qui ne sont pas protégés par une stratégie de sauvegarde.
++
+image:number_protected_unprotected.gif[""]
+
+. Cliquez sur *Filtrer*.
++
+image:filter.gif["Capture d'écran du bouton de menu déroulant du filtre"]
+
+. Cliquez sur le menu déroulant *Select* et sélectionnez le filtre de votre choix.
++
+Pour Microsoft SharePoint Online, vous pouvez filtrer par ID de modèle. Vous pouvez entrer l'ID de modèle pour le rechercher ou le sélectionner dans le menu déroulant.
+
++
+Pour tous les autres services, vous pouvez filtrer par groupe, pays, bureau, service, titre, domaine ou pays. Si vous avez des groupes de sécurité, ils sont également répertoriés comme options de filtrage.
+
++
+Le deuxième menu déroulant contient des sélections en fonction du filtre sélectionné. Par exemple, si vous sélectionnez Groupe comme premier filtre, vous pouvez sélectionner l'un des niveaux de groupe de stratégies de sauvegarde comme filtre secondaire.
+
++
+image:select_filter.gif["Capture d'écran du premier ensemble d'options de filtre"]
+
++
+Un champ de recherche s'affiche.
+
+. Entrez vos critères de recherche.
+. Si vous souhaitez ajouter d'autres filtres, cliquez sur *Ajouter filtre* et faites votre sélection.
+. Cliquez sur *appliquer le filtre*. Les résultats des filtres s'affichent.
+

@@ -1,0 +1,75 @@
+---
+sidebar: sidebar 
+permalink: task_performing_high_level_restore.html 
+keywords: netapp, saas backup, perform, high-level restore, microsoft 365, Exchange, OneDrive 
+summary: La même procédure est suivie pour effectuer des restaurations générales de boîtes aux lettres pour Microsoft Exchange Online, Mysites pour Microsoft OneDrive entreprise, des sites pour Microsoft SharePoint Online et des groupes Microsoft 365. 
+---
+= Effectuez une restauration de service de haut niveau
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+La même procédure est suivie pour effectuer des restaurations générales de boîtes aux lettres pour Microsoft Exchange Online, Mysites pour Microsoft OneDrive entreprise, des sites pour Microsoft SharePoint Online et des groupes Microsoft 365.
+
+Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration. Les autres options disponibles incluent :
+
+image:backup_for_restore_availability.png["Sauvegardes disponibles pour la restauration"]
+
+.Étapes
+. Dans le tableau de bord, cliquez sur le numéro ci-dessus *PROTECTED* dans la zone du service pour lequel vous souhaitez effectuer la restauration.
+. Sélectionnez le nom de la boîte aux lettres, du groupe, de l'équipe, du site MySite ou du site à restaurer.
+. Sélectionnez une option de restauration :
++
+
+NOTE: Si vous sélectionnez l'option de restauration Exporter vers PST, le lien fourni est valide pendant sept jours et est pré-authentifié.
+
++
+.. Si vous restaurez des boîtes aux lettres pour *Microsoft Exchange Online*, sélectionnez l'une des options suivantes :
++
+
+NOTE: La restauration de boîtes aux lettres contenant des messages de plus de 140 Mo peut entraîner des échecs de téléchargement vers le serveur. Nous vous recommandons d'effectuer une restauration de haut niveau à l'aide de l'option Exporter vers PST. Pour plus d'informations, voir link:https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits["Limites de Microsoft Exchange Online : limites de messages"].
+
++
+*** Restauration vers la même boîte aux lettres
+*** Exporter vers PST si vous exportez vers PST, vous recevrez un e-mail de notification indiquant l'emplacement du fichier PST une fois l'exportation terminée.
+*** Restaurer vers une autre boîte aux lettres si vous restaurez vers une autre boîte aux lettres, vous devez entrer la boîte aux lettres de destination dans le champ de recherche. Vous pouvez saisir une partie de l'adresse e-mail de destination dans le champ de recherche pour lancer une recherche automatique des boîtes aux lettres de destination correspondantes.
+
+
+.. Si vous restaurez des groupes pour *Microsoft Office 365 Groups*, sélectionnez l'une des options suivantes :
++
+*** Restaurez vers le même groupe
+*** Restaurez vers un autre groupe
+*** Exporter les données si vous exportez, un fichier PST est créé avec vos fichiers Microsoft Exchange et un fichier .zip est créé avec vos sites Microsoft SharePoint. Vous recevrez un e-mail de notification contenant l'emplacement du fichier PST et une URL authentifiée à l'emplacement du fichier .zip.
+
+
+.. Si vous restaurez des équipes sous *groupes Microsoft Office 365*, sélectionnez l'une des options suivantes :
++
+*** Restaurer vers la même équipe
+*** Restauration vers une autre équipe cette solution est idéale pour les situations où une équipe est supprimée de Microsoft 365. Vous devez créer une nouvelle association pour utiliser cette option de restauration. Si vous avez récemment créé une nouvelle équipe dans MS Teams, découvrez-la en synchronisant le service. Accédez à *Paramètres des services* sur la gauche. Cliquez sur *Office 365*. Sous *gérer les services*, cliquez sur *Synchroniser maintenant* pour les groupes Microsoft 365.
+*** Exporter les données si vous exportez des données, vous devez les télécharger. Accédez à compte rendu dans le menu de gauche. Recherchez votre travail d'exportation de données. Cliquez sur *nombre total de dossiers*. Cliquez ensuite sur *Exporter lien de téléchargement de données*. Un fichier zip est téléchargé. Ouvrez le fichier zip pour extraire les données.
+
+
+.. Si vous restaurez Mysites pour *Microsoft OneDrive entreprise*, sélectionnez l'une des options suivantes :
++
+*** Restaurez sur le même site MySite
+*** Restaurer vers un autre MySite si vous restaurez vers un autre MySite, entrez la destination MySite dans le champ de recherche. Vous pouvez saisir une partie du site MySite de destination dans le champ de recherche pour lancer une recherche automatique des MySite de destination correspondants.
+*** Exporter les données si vous exportez, un fichier .zip est créé avec vos Mysites. Vous recevrez un e-mail de notification contenant une URL authentifiée à l'emplacement du fichier .zip.
+
+
+.. Si vous restaurez des sites pour *Microsoft SharePoint Online*, sélectionnez l'une des options suivantes :
++
+*** Restaurer vers le même site si vous sélectionnez *Restaurer uniquement les rôles*, seuls les rôles et les autorisations sont restaurés.image:sharepoint_restore_only_roles.png["L'image affiche la fenêtre de restauration avec l'option Restaurer uniquement les rôles sélectionnée"]
+*** Restaurer vers un autre site si vous restaurez vers un autre site, entrez le site de destination dans le champ de recherche. Vous pouvez saisir une partie du site de destination dans le champ de recherche pour lancer une recherche automatique des sites de destination correspondants.
+*** Exporter les données si vous exportez, un fichier .zip est créé avec votre collection de sites. Vous recevrez un e-mail de notification contenant une URL authentifiée à l'emplacement du fichier .zip.
+
+
+
+
+. Cliquez sur *confirmer*. Un message s'affiche pour indiquer que le travail de restauration a été créé.
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la restauration.
+

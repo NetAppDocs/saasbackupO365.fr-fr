@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_discovering_new.html 
+keywords: netapp, saas backup, microsoft 365, discover, discovery, discovering, new, mailboxes, sites, groups, teams, shared, archive 
+summary: Dans NetApp SaaS Backup pour Microsoft 365, vous pouvez gérer vos comptes de service, découvrir de nouveaux comptes et définir des notifications de compte. 
+---
+= Découverte de nouveaux messageries, sites et groupes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous devez synchroniser l'application entre SaaS Backup et votre compte Microsoft 365 pour détecter les nouvelles boîtes aux lettres (y compris les boîtes aux lettres partagées et d'archivage), les sites, les groupes et les équipes à découvrir par SaaS Backup. Par défaut, la synchronisation a lieu automatiquement toutes les 24 heures. Toutefois, si vous apportez des modifications et que vous souhaitez que la découverte se produise avant la prochaine synchronisation programmée *Auto Sync*, vous pouvez lancer une synchronisation immédiate.
+
+.Étapes
+. Cliquez sur image:services.gif["Capture d'écran du bouton services"] dans le volet de navigation de gauche.
+. Cliquez sur l'icône Paramètres Microsoft 365.image:mso365_settings.gif["Capture d'écran du bouton Microsoft 365"]
+. Cliquez sur *Synchroniser maintenant* en regard du service que vous souhaitez synchroniser.image:sync_now.png[""]De nouveaux utilisateurs, des boîtes aux lettres partagées et des boîtes aux lettres d'archivage sont découverts et ajoutés dans un état non protégé. Si vous souhaitez sauvegarder des utilisateurs nouvellement découverts, des boîtes aux lettres partagées ou des boîtes aux lettres d'archivage, vous devez modifier la stratégie de sauvegarde des utilisateurs pour qu'ils ne soient pas protégés vers l'un des groupes de niveaux prédéfinis.
+. Cliquez sur *confirmer*.
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression du travail. Une fois le travail terminé, vous pouvez cliquer sur le travail sous *travaux terminés récents* pour afficher le nombre d'utilisateurs ajoutés ou supprimés pendant la synchronisation. Les modifications apportées aux comptes utilisateur sont indiquées comme suit :
++
+** *Redécouverte* utilisateurs indique le nombre de comptes utilisateur inchangés.
+** *Désactivé* utilisateurs indique le nombre de comptes d'utilisateur supprimés.
+** *Nouveaux utilisateurs* indique le nombre de nouveaux comptes utilisateur.
+
+
+

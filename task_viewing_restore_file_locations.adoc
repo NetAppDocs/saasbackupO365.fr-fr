@@ -1,0 +1,23 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_restore_file_locations.html 
+keywords: netapp, saas backup, microsoft 365, find, viewing, jobs, log, restore, file, locations 
+summary: 'Vous pouvez télécharger un journal du titre et de l"emplacement des fichiers et dossiers restaurés.' 
+---
+= Rechercher les fichiers restaurés
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Lorsque certains fichiers ou dossiers sont restaurés, ils sont contenus dans un nouveau dossier de restauration. Pour vous aider à trouver facilement vos éléments restaurés, vous pouvez télécharger un fichier Excel avec les noms et emplacements de vos fichiers et dossiers restaurés.
+
+.Étapes
+. Cliquez sur image:jobs_button.gif["Capture d'écran du bouton travaux"] dans le volet de navigation de gauche.
+. Sous *travaux terminés récents*, cliquez sur le travail pour lequel vous souhaitez trouver les fichiers restaurés.
+. Cliquez sur *Télécharger* dans le coin supérieur droit. Un fichier Excel est téléchargé localement contenant les noms et emplacements des fichiers restaurés pour le travail spécifique.
+

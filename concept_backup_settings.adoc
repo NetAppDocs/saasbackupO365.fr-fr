@@ -1,0 +1,120 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: Vous pouvez mettre à jour vos paramètres de sauvegarde pour contrôler diverses options de sauvegarde. Les paramètres de sauvegarde disponibles varient en fonction du service. 
+---
+= Sauvegarder les paramètres
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez mettre à jour vos paramètres de sauvegarde pour contrôler diverses options de sauvegarde. Les paramètres de sauvegarde disponibles varient en fonction du service.
+
+
+
+== Sauvegarder les paramètres par service
+
+[cols="12,64,24,24"]
+|===
+| Paramètre de sauvegarde | Description | Activé | Disponible dans... 
+
+
+| Synchronisation automatique  a| 
+Active la synchronisation programmée automatique des utilisateurs, OneDrive ou collections de sites nouvellement ajoutés ou supprimés toutes les 24 heures.
+| Par défaut  a| 
+* Microsoft Exchange Online
+* Microsoft SharePoint Online
+* Microsoft OneDrive entreprise
+* Groupes Microsoft 365
+
+
+
+
+| Activer la sauvegarde OneNote  a| 
+Permet la sauvegarde des ordinateurs portables OneNote.
+| Manuellement  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive entreprise
+
+
+
+
+| Activez la restauration des éléments récupérables  a| 
+Permet à l'utilisateur de restaurer les éléments récupérables de Microsoft Exchange.
+| Manuellement  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Activez la sauvegarde des éléments récupérables  a| 
+Permet la sauvegarde des éléments récupérables par Microsoft Exchange. Seule la règle de sauvegarde de niveau 1 permet la sauvegarde des éléments récupérables.
+| Manuellement  a| 
+* Microsoft Exchange Online
+
+
+
+
+| Inclure les flux de travail  a| 
+Inclut les workflows à la sauvegarde.
+| Manuellement  a| 
+* Microsoft SharePoint Online
+* Groupes Microsoft 365
+
+
+
+
+| Inclure les vues de liste  a| 
+Inclut les vues de liste en sauvegarde.
+| Manuellement  a| 
+* Microsoft SharePoint Online
+* Groupes Microsoft 365
+
+
+
+
+| Inclure l'historique des versions  a| 
+Permet la maintenance de plusieurs versions de fichiers dans la sauvegarde.
+
+
+NOTE: Ce paramètre s'applique uniquement aux fichiers individuels. Elle ne s'applique pas à des dossiers, niveaux ou services complets.
+| Par défaut  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive entreprise
+* Groupes Microsoft 365
+
+
+
+
+| Nombre de versions  a| 
+Définit le nombre de versions du fichier de sauvegarde à conserver. Par défaut, la dernière version est automatiquement sauvegardée, même si ce paramètre n'est pas activé.
+| Définis sur 20 par défaut  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive entreprise
+* Groupes Microsoft 365
+
+
+|===
+
+
+== Mettre à jour les paramètres de sauvegarde
+
+.Étapes
+. Cliquez sur *Services* dans le volet de navigation de gauche.
++
+image:services.gif["Capture d'écran du bouton services"]
+
+. Cliquez sur Microsoft 365.
++
+image:mso365_settings.gif["Capture d'écran du bouton Microsoft 365"]
+
+. Sous *gérer les services*, cliquez sur l'icône des paramètres de sauvegarde image:configure_icon.gif["Capture d'écran de l'icône de configuration"] à côté du service que vous devez mettre à jour. La liste des paramètres de sauvegarde disponibles pour le service sélectionné s'affiche.
+. Sélectionnez les paramètres de sauvegarde souhaités.
+. Cliquez sur *confirmer*.
+

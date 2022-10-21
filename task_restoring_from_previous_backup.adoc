@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: task_restoring_from_previous_backup.html 
+keywords: netapp, saas restore, restoring, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+summary: Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration. 
+---
+= Restauration à partir d'une sauvegarde précédente
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Par défaut, seule la sauvegarde la plus récente est disponible pour la restauration.
+
+.Étapes
+. Dans le tableau de bord, cliquez sur le numéro ci-dessus *PROTECTED* dans la zone du service pour lequel vous souhaitez effectuer la restauration.
++
+** Pour les boîtes aux lettres partagées, cliquez sur l'onglet *PARTAGÉ*.
+** Pour les boîtes aux lettres d'archives, cliquez sur l'onglet *ARCHIVE*. Remarque : les boîtes aux lettres d'archivage sont restaurées dans la boîte aux lettres habituelle de l'utilisateur.
+** Pour les boîtes aux lettres ordinaires, restez sur l'onglet *USER*.
+
+
+. Cliquez sur l'élément à restaurer.
+. Cliquez sur *Afficher l'historique des sauvegardes*.
++
+Un calendrier s'affiche. Les dates pour lesquelles des sauvegardes sont disponibles sont indiquées par un cercle vert.
+
+. Si vous souhaitez afficher les éléments sauvegardés sur un nombre de jours donné, cliquez sur *Afficher les sauvegardes sélectionnées* et sélectionnez un nombre de jours prédéfini dans le menu déroulant.
+. Sinon, cliquez sur la date de la sauvegarde à restaurer, puis sélectionnez la sauvegarde spécifique.
+. Sélectionnez les éléments à restaurer.
+. Cliquez sur image:restore.gif["illustration du bouton de restauration"]
+. Sélectionnez une option de restauration :
++
+.. Si vous restaurez des boîtes aux lettres pour *Microsoft Exchange Online* ou une boîte aux lettres pour un groupe Microsoft 365, sélectionnez l'une des options suivantes :
++
+*** *Restaurer dans la même boîte aux lettres*
++
+Si vous restaurez vers la même boîte aux lettres, par défaut, un dossier de restauration avec la date et l'heure actuelles est créé à l'emplacement de contenu original contenant la copie de sauvegarde. Si vous sélectionnez *remplacer le contenu existant*, vos données actuelles sont complètement remplacées par la sauvegarde.
+
+*** *Restaurer dans une autre boîte aux lettres*
++
+Si vous restaurez vers une autre boîte aux lettres, vous devez entrer la boîte aux lettres de destination dans le champ de recherche. Vous pouvez saisir une partie de l'adresse e-mail de destination dans le champ de recherche pour lancer une recherche automatique des boîtes aux lettres de destination correspondantes.
+
+
+
+.. Si vous restaurez Mysites pour *Microsoft OneDrive entreprise*, sélectionnez l'une des options suivantes :
++
+*** *Restaurer sur le même site MySite*
++
+Si vous restaurez des fichiers individuels sur le même MySite, par défaut, un dossier de restauration avec la date et l'heure actuelles est créé à l'emplacement de contenu d'origine contenant la copie de sauvegarde. Si vous sélectionnez *remplacer le contenu existant*, vos données actuelles sont complètement remplacées par la sauvegarde. Si vous restaurez un dossier entier, l'option remplacer le contenu existant* n'est pas disponible.
+
+*** *Restaurer sur un autre MySite*
++
+Si vous restaurez vers un autre MySite, vous devez entrer le site de destination MySite dans le champ de recherche. Vous pouvez saisir une partie du site MySite de destination dans le champ de recherche pour lancer une recherche automatique des MySite de destination correspondants.
+
+
+
+.. Si vous restaurez des sites pour *Microsoft SharePoint Online*, vous pouvez effectuer une restauration sur le même site ou sur un autre site. Si vous restaurez un site de groupe Microsoft 365, vous ne pouvez restaurer que le site.
++
+*** *Restaurer sur le même site*
++
+Si vous restaurez sur le même site, un dossier de restauration avec la date et l'heure actuelles est créé à l'emplacement du fichier d'origine contenant la copie de sauvegarde. Si vous sélectionnez l'option *Ecraser avec fusion*, aucun dossier de restauration n'est créé. Si la version du fichier de sauvegarde et le fichier actuel correspondent, la sauvegarde est restaurée à l'emplacement d'origine. Tout nouveau contenu de la destination est ignoré et n'est pas affecté. Par exemple, si la sauvegarde contient File1 version5 et que la destination contient File1 version 6, une restauration avec l'option *Overwrite with Merge* sélectionnée échoue. Si vous sélectionnez l'option *remplacer le contenu existant*, la version actuelle des données est complètement remplacée par la copie de sauvegarde.
+
+*** *Restaurer sur un autre site*
++
+Si vous restaurez votre système vers un autre site, vous devez entrer le site de destination dans le champ de recherche. Vous pouvez saisir une partie du site de destination dans le champ de recherche pour lancer une recherche automatique des sites correspondants.
+
+
+
+
+
+. Cliquez sur *confirmer*.
++
+Un message s'affiche pour indiquer que le travail de restauration est créé.
+
+. Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la restauration.
+

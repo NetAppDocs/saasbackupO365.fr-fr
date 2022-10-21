@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: task_configuring_impersonation.html 
+keywords: netapp, saas backup, microsoft 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts, 
+summary: 'Si vous prévoyez d"utiliser SaaS Backup avec Microsoft Exchange Online, vous devez configurer l"emprunt d"identité.' 
+---
+= Configurer l'emprunt d'identité pour Microsoft Exchange Online
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Si vous prévoyez d'utiliser SaaS Backup avec Microsoft Exchange Online, vous devez configurer l'emprunt d'identité. L'emprunt d'identité permet à votre compte de service Microsoft 365 d'emprunter des comptes d'utilisateur et d'accéder aux autorisations associées.
+
+
+
+== Configurer automatiquement l'emprunt d'identité
+
+Pour configurer automatiquement l'emprunt d'identité, exécutez https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["Commandes MSDN PowerShell"].
+
+
+
+== Configurer manuellement l'emprunt d'identité
+
+Vous pouvez configurer manuellement l'emprunt d'identité à l'aide de votre compte d'administrateur Microsoft 365, ainsi qu'à l'aide des comptes de service Microsoft 365 ajoutés dans SaaS Backup. Pour plus d'informations sur les comptes de service Microsoft 365, rendez-vous sur link:task_creating_msservice_account_with_global_permissions.html["Création d'un compte de service Microsoft 365 avec des autorisations globales."]
+
+Pour configurer manuellement l'emprunt d'identité, procédez comme suit :
+
+.Étapes
+. Connectez-vous à votre compte de service Microsoft 365.
+. Sélectionnez l'onglet *Exchange*.
+. Sur la gauche, sous Tableau de bord, sélectionnez *autorisations*.
+. Cliquez sur *rôles d'administrateur*.
+. Double-cliquez dans le volet de droite pour sélectionner *Discovery Management*.
+. Sous *rôles*, cliquez sur le symbole *+*.
++
+image:365_discovery_management_impersonation_setup_roles.jpg["Capture d'écran de la fenêtre d'étendue d'écriture lors de la configuration de l'emprunt d'identité pour Microsoft Exchange Online"]
+
+. Sélectionnez *ApplicationImpersation* dans le menu déroulant.
+. Cliquez sur *Ajouter*.
+. Cliquez sur *OK*.
+. Vérifiez que *ApplicationImpersation* a été ajouté sous *Roles*.
+. Sous membres, cliquez sur le symbole *+*.
++
+image:365_discovery_management_impersonation_setup_members.jpg["Capture d'écran de la fenêtre membres lors de la configuration de l'emprunt d'identité pour Microsoft Exchange Online"]Une nouvelle fenêtre s'affiche
+
+. Choisissez le nom d'utilisateur.
+. Cliquez sur *Ajouter*.
+. Cliquez sur *OK*.
+. Vérifiez que le nom d'utilisateur apparaît dans la section *membres*.
+. Cliquez sur *Enregistrer*.
+

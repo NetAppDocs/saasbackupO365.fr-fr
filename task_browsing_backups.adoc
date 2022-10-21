@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: task_browsing_backups.html 
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups 
+summary: Vous pouvez parcourir vos sauvegardes dans tous vos services Microsoft 365. 
+---
+= Parcourir les sauvegardes
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez parcourir les instances protégées dans les sauvegardes récentes ou dans toutes vos sauvegardes pour Microsoft 365 Exchange, SharePoint, OneDrive for Business et groupes.
+
+
+NOTE: Le paramètre de navigation par défaut est *indiquant les 5 derniers jours de sauvegarde*. Si vous sélectionnez 5 jours, seuls les éléments sauvegardés au cours des 5 derniers jours s'affichent. Vous pouvez modifier la plage horaire selon vos besoins.
+
+Pour vous assurer que vous trouvez ce que vous cherchez, vérifiez la date à gauche du menu déroulant de la plage horaire.
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png["l'image met en surbrillance la date et le nombre d'utilisateurs pour parcourir une boîte aux lettres utilisateur"]
+
+.Étapes
+. Dans le *Dashboard*, sélectionnez le service que vous souhaitez rechercher pour les sauvegardes, puis sélectionnez instances protégées.
++
+image:number_protected_unprotected_highlight_protected.gif["Instances Exchange protégées mises en surbrillance"]
+
+. Sélectionnez le compte que vous souhaitez parcourir.
+. Sélectionnez la plage horaire des éléments sauvegardés que vous souhaitez parcourir.
++
+image:date_range_browse_feature.gif["L'image affiche les options de plage de temps pour parcourir les sauvegardes"]
+
++
+
+NOTE: *Afficher l'historique des sauvegardes* affiche une vue de calendrier de vos sauvegardes. Si vous sélectionnez *Afficher l'historique des sauvegardes* et que vous sélectionnez une date antérieure à la date en cours, cela modifie la plage horaire des sauvegardes que vous voyez. Par exemple, si aujourd'hui est le 8 octobre, vous sélectionnez le 5 octobre dans la vue calendrier, puis vous sélectionnez pour parcourir les 5 derniers jours à partir du 5 octobre, les éléments que vous pouvez parcourir seront à partir du 1-5 octobre.
+
+. Cliquez sur le type d'éléments que vous souhaitez afficher : courrier, Calendrier, tâches, Contacts, fichiers, Contenu ou autre.
+. Parcourir les éléments sauvegardés.
+

@@ -1,0 +1,85 @@
+---
+sidebar: sidebar 
+permalink: task_migrate_data.html 
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export 
+summary: Pour préparer la fin de votre licence avec SaaS Backup pour Microsoft 365, vous pouvez demander la migration des données vers Amazon S3 ou Microsoft Azure Blob Storage du locataire. 
+---
+= Migrer des données
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Pour préparer la fin de votre licence avec SaaS Backup pour Microsoft 365, vous pouvez demander la migration des données d'Amazon S3 vers un stockage Amazon S3 détenu par le locataire ou de Microsoft Azure Blob vers un stockage Microsoft Azure Blob Storage détenu par le locataire.
+
+
+NOTE: La migration croisée d'Amazon S3 vers le stockage Microsoft Azure Blob ou entre Microsoft Azure Blob et le stockage Amazon S3 n'est pas prise en charge.
+
+Une fois la migration des données terminée, vous pouvez exporter vos données à l'aide de l'outil d'exportation en bloc NetApp SaaS Backup. Connectez-vous à link:https://mysupport.netapp.com/site/tools["Page des outils de support NetApp"] Recherchez également l'outil d'exportation en bloc NetApp SaaS Backup.
+
+
+NOTE: La migration des données est une activité en fin de licence. Tous les locataires doivent éviter toute forme d'activité sur leur compte SaaS Backup pour éviter tout écart au niveau des données et des métadonnées lors de la migration. Une fois la migration des données terminée, toutes les sauvegardes planifiées pour le locataire seront désactivées.
+
+*Exigence* : pour demander la migration des données, connectez-vous avec les identifiants de compte de tenant avec les autorisations Administrateur global. Les autres rôles utilisateur ne pourront pas accéder à l'onglet migration des données dans l'interface utilisateur.
+
+*Recommandation* : vous devez fournir le stockage de destination avec une capacité suffisante pour stocker toutes les données client et ajouter 10 % de capacité supplémentaire en tant que tampon pour le stockage de métadonnées.
+
+.Étapes
+. Accédez à *Paramètres du compte* image:gear_icon.png["icône de vitesse"].
+. Sélectionnez l'onglet *migration de données*.
+. Dans *Détails de stockage*, entrez les informations dans les champs :
++
+[cols="20,20"]
+|===
+| Amazon S3 | Microsoft Azure 
+
+
+| Nom du compartiment | Nom du compte 
+
+
+| Région | Nom du conteneur 
+
+
+| Touche d'accès | Point d'accès 
+
+
+| Clé secrète | Touche d'accès 
+
+
+|  | Région 
+|===
++
+
+NOTE: Les utilisateurs de Microsoft Azure doivent définir le niveau d'accès public sur « Blob » pour le conteneur fourni dans les détails du stockage.
+
+. Sélectionnez *Tester la connexion*.
++
+Une coche verte indique que la connexion fonctionne correctement.
+
+. Dans *consentement*, cochez la case pour accepter les termes et conditions de migration des données, puis sélectionnez *Envoyer*.
++
+Vous avez enregistré les détails avec succès. L'ID locataire est maintenant visible dans *Etat de migration*.
+
++
+
+TIP: Vous aurez besoin de l'identifiant de locataire lors de l'exportation de vos données à l'aide de l'outil d'exportation en bloc NetApp SaaS Backup.
+
+
+
+*Étapes supplémentaires pour SaaS Backup fournies compartiments Amazon S3* après avoir fourni le consentement, la remarque sur les règles et les règles s'affiche ci-dessous. Suivez les étapes suivantes pour finaliser votre demande de migration des données.
+
+. Vérifiez et copiez la règle.
++
+image:policy-note-variables.png["Règle copiée avec les variables utilisateur IAM et de destination mises en surbrillance"]
+
+. Accédez à votre compte Amazon S3.
+. Reliez la règle fournie dans *Détails du stockage* au compartiment de destination Amazon S3.
+. Retournez à l'onglet *migration de données* dans *Paramètres de compte* dans SaaS Backup pour Microsoft 365.
+. Dans *Confirmation de police*, cochez la case pour confirmer que vous avez téléchargé la police dans le compartiment de destination, puis sélectionnez *Envoyer*. Une coche verte indique que la demande de migration des données est terminée et que la migration des données est maintenant mise en file d'attente.
+
+
+Reportez-vous à *Statut de migration* pour surveiller la progression de votre migration. La durée de la migration dépend de plusieurs facteurs comme la quantité de données et le nombre de licences dont vous disposez.

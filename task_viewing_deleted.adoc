@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deleted.html 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
+summary: Vous pouvez afficher les éléments supprimés de tous les services si vous activez les éléments supprimés dans Paramètres de service. 
+---
+= Afficher les éléments supprimés
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Vous pouvez afficher les éléments supprimés de tous les services à tout moment en activant *Afficher les éléments supprimés* dans Paramètres de service. Cela vous permet de gagner du temps ; au lieu de parcourir les différentes sauvegardes pour les éléments supprimés, activez le commutateur pour rechercher immédiatement les éléments supprimés.
+
+Par défaut, le commutateur est désactivé.
+
+.Étapes
+. Cliquez sur *SERVICES* dans le volet de navigation de gauche.
+. Cliquez sur l'icône Paramètres image:settings_icon.gif["L'image montre l'icône des paramètres"].
++
+image:show_deleted_items_switch_off.gif["L'image montre que les éléments supprimés sont désactivés"]
+
+. Activez le commutateur *Afficher les éléments supprimés*.
++
+image:show_deleted_items_switch_on.gif["L'image montre l'activation des éléments supprimés et la mise à jour des paramètres de sauvegarde"]
+
+. Cliquez sur *travaux* dans le volet de navigation de gauche.
+. Ouvrez la sauvegarde la plus récente pour voir les éléments supprimés.
+
