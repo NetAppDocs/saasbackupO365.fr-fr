@@ -14,7 +14,7 @@ summary: Vous pouvez ajouter ou libérer une licence.
 
 
 [role="lead"]
-Si vous venez de recevoir une licence pour un abonnement payant, veuillez suivre #workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,workflow pour commencer à utiliser un abonnement payant. Vous entrez votre clé de licence dans le cadre du flux de travail.
+Si vous venez de recevoir une licence pour un abonnement payant, veuillez suivre <<concept_paid_subscription_workflow.adoc#workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,workflow pour commencer à utiliser un abonnement payant>>. Vous entrez votre clé de licence dans le cadre du flux de travail.
 
 Si vous utilisez déjà SaaS Backup, vous pouvez suivre ces étapes pour ajouter des licences supplémentaires.
 

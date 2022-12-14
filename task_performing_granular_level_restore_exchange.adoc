@@ -184,4 +184,5 @@ Un message s'affiche pour indiquer que le travail de restauration a été créé
 . Cliquez sur *Afficher la progression du travail* pour contrôler la progression de la restauration.
 
 
+.Informations associées
 Pour en savoir plus sur l'utilisation du portail en libre-service pour restaurer des éléments pour Microsoft Exchange Online, reportez-vous à la section link:reference_about_ssp.hmtl["À propos du portail en libre-service"].

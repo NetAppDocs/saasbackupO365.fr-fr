@@ -41,6 +41,7 @@ Vous pouvez vous inscrire à SaaS Backup pour Microsoft 365 avec votre compte de
 
 == Créez un compte SSO NetApp
 
+.Avant de commencer
 Pour valider votre abonnement, vous devez disposer d'un ID utilisateur et d'un mot de passe SSO. Si vous ne possédez pas de compte SSO NetApp, consultez le site https://mysupport.netapp.com/eservice/public/now.do[] pour vous inscrire pour un seul. Une fois votre demande traitée, vous recevrez une notification par e-mail contenant vos identifiants SSO de NetApp. Le traitement de la demande prendra environ 24 heures et l'envoi de l'e-mail de notification.
 
 .Étapes

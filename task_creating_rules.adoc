@@ -20,7 +20,7 @@ Vous pouvez créer des règles pour les groupes Microsoft Exchange Online, OneDr
 
 Vous devez appliquer un filtre défini par l'utilisateur à vos données avant de pouvoir créer une règle. Les filtres appliqués s'affichent sous l'icône *Filter*. Les filtres par défaut de NetApp SaaS Backup pour Microsoft 365 s'affichent en gris. Les filtres définis par l'utilisateur apparaissent en bleu clair.image:rules.gif["Exemple de filtre défini par l'utilisateur et de filtre défini par SaaS Backup pour la création de règles"]
 
-#creating-user-defined-filter,Créer un filtre défini par l'utilisateur
+<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,Créer un filtre défini par l'utilisateur>>
 
 Vous pouvez créer plusieurs règles. Les règles sont appliquées dans l'ordre dans lequel elles apparaissent dans la liste *gérer les règles*.
 

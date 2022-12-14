@@ -28,7 +28,7 @@ Voici une liste archivée de nouvelles fonctionnalités ajoutées à SaaS Backup
 == Août 2018
 
 * L'interface utilisateur a été remaniée pour améliorer l'expérience utilisateur et l'efficacité.
-* Les politiques de conservation des données ont été mises à jour pour permettre la conservation des données pendant 3 ans.#backup_policies,Politiques de sauvegarde
+* Les politiques de conservation des données ont été mises à jour pour permettre la conservation des données pendant 3 ans.<<concept_backup_policies.adoc#backup_policies,Politiques de sauvegarde>>
 
 
 
@@ -36,7 +36,7 @@ Voici une liste archivée de nouvelles fonctionnalités ajoutées à SaaS Backup
 == À mai 2018
 
 * NetApp Cloud Control a été renommé NetApp SaaS Backup pour Microsoft 365.
-* Vous pouvez à présent purger les utilisateurs, les collections de sites et les groupes Microsoft 365, en supprimant entièrement toutes les données associées à SaaS Backup pour Microsoft 365.#purging-a-user-site-collection-or-office-365-group,Purge d'un utilisateur, d'une collection de sites ou d'un groupe Microsoft 365
+* Vous pouvez à présent purger les utilisateurs, les collections de sites et les groupes Microsoft 365, en supprimant entièrement toutes les données associées à SaaS Backup pour Microsoft 365.<<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,Purge d'un utilisateur, d'une collection de sites ou d'un groupe Microsoft 365>>
 * SaaS Backup découvre désormais des groupes publics et privés pour les groupes Microsoft 365.
 
 
@@ -46,10 +46,10 @@ Voici une liste archivée de nouvelles fonctionnalités ajoutées à SaaS Backup
 
 * SaaS Backup pour Microsoft 365 prend désormais en charge les messageries partagées pour Microsoft Office Exchange Online.
 +
-Les boîtes aux lettres partagées sont découvertes via l'utilisation d'un compte de service créé automatiquement. Si vous n'avez pas activé le service pour Microsoft Office Exchange Online avant cette mise à jour, le compte de service automatique pour les boîtes aux lettres partagées est créé par SaaS Backup lorsque vous activez Microsoft Office Exchange Online. Si votre service pour Microsoft Office Exchange Online est déjà activé, vous devez autoriser SaaS Backup à créer le compte de service automatique, de sorte que vos boîtes aux lettres partagées puissent être découvertes et sauvegardées. #granting-permissions-to-enable-shared-mailboxes,Accordez des autorisations pour activer les boîtes aux lettres partagées
+Les boîtes aux lettres partagées sont découvertes via l'utilisation d'un compte de service créé automatiquement. Si vous n'avez pas activé le service pour Microsoft Office Exchange Online avant cette mise à jour, le compte de service automatique pour les boîtes aux lettres partagées est créé par SaaS Backup lorsque vous activez Microsoft Office Exchange Online. Si votre service pour Microsoft Office Exchange Online est déjà activé, vous devez autoriser SaaS Backup à créer le compte de service automatique, de sorte que vos boîtes aux lettres partagées puissent être découvertes et sauvegardées. <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,Accordez des autorisations pour activer les boîtes aux lettres partagées>>
 
 +
-Une fois votre compte de service automatique créé, vos boîtes aux lettres partagées seront automatiquement découvertes lors de la prochaine synchronisation programmée de votre compte utilisateur. Si vous voulez que vos boîtes aux lettres partagées soient découvertes immédiatement, vous pouvez #sdiscovering-new-mailboxes-sites-and-groups,découvrez immédiatement vos comptes utilisateur.
+Une fois votre compte de service automatique créé, vos boîtes aux lettres partagées seront automatiquement découvertes lors de la prochaine synchronisation programmée de votre compte utilisateur. Si vous voulez que vos boîtes aux lettres partagées soient découvertes immédiatement, vous pouvez <<task_discovering_new.adoc#sdiscovering-new-mailboxes-sites-and-groups,découvrez immédiatement vos comptes utilisateur>>.
 
 
 
@@ -65,7 +65,7 @@ image:subscription_types_free_trial.jpg["Capture d'écran indiquant où vous sai
 
 == Février 2018
 
-* Le filtrage basé sur l'ID de modèle est désormais disponible pour Microsoft SharePoint Online.#creating-a-user-defined-filer,Créer un filtre défini par l'utilisateur
+* Le filtrage basé sur l'ID de modèle est désormais disponible pour Microsoft SharePoint Online.<<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,Créer un filtre défini par l'utilisateur>>
 * Vous pouvez maintenant télécharger le journal d'activité du compte d'utilisateur SaaS Backup pour Microsoft 365 dans un fichier .csv.link:task_downloading_data.html["Téléchargez les journaux"]
 * La synchronisation des comptes d'utilisateur, des sites et des groupes entre SaaS Backup pour Microsoft 365 et votre service est désormais activée par défaut.
 * L'inclusion de l'historique des versions de sauvegarde est désormais activée par défaut. Le nombre de versions par défaut est 20.link:concept_backup_settings.html["Sauvegarder les paramètres"]
@@ -93,5 +93,5 @@ image:subscription_types_free_trial.jpg["Capture d'écran indiquant où vous sai
 
 == Octobre 2017
 
-* Des règles peuvent être créées pour vous permettre de déplacer automatiquement les utilisateurs vers un niveau de sauvegarde présélectionné en fonction de critères prédéfinis. Vous pouvez créer des règles pour Microsoft Exchange Online et Microsoft OneDrive entreprise. Vous ne pouvez pas créer de règles pour Microsoft SharePoint Online.#creating-rules,Créer de nouvelles règles
+* Des règles peuvent être créées pour vous permettre de déplacer automatiquement les utilisateurs vers un niveau de sauvegarde présélectionné en fonction de critères prédéfinis. Vous pouvez créer des règles pour Microsoft Exchange Online et Microsoft OneDrive entreprise. Vous ne pouvez pas créer de règles pour Microsoft SharePoint Online.<<task_creating_rules.adoc#creating-rules,Créer de nouvelles règles>>
 

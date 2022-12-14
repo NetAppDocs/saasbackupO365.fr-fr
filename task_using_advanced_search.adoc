@@ -22,9 +22,9 @@ Après avoir activé *Advanced Search*, vous pouvez activer le portail en libre-
 
 image:advanced_search_settings_exchange.png["Capture d'écran des paramètres de recherche avancés"]
 
-*  Advanced Search
-*  a search
-*  previous search jobs
+* <<Activez la recherche avancée>>
+* <<Effectuez une recherche>>
+* <<Rechercher les travaux de recherche précédents>>
 
 
 

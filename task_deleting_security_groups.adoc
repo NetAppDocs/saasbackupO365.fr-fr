@@ -14,7 +14,7 @@ summary: 'Si un groupe de sécurité est utilisé dans une règle définie par l
 
 
 [role="lead"]
-Si un groupe de sécurité est utilisé dans une règle définie par l'utilisateur, il ne peut pas être supprimé. Vous devez supprimer la règle définie par l'utilisateur, puis supprimer le groupe de sécurité.#deleting-rules,Suppression des règles
+Si un groupe de sécurité est utilisé dans une règle définie par l'utilisateur, il ne peut pas être supprimé. Vous devez supprimer la règle définie par l'utilisateur, puis supprimer le groupe de sécurité.<<task_deleting_rules.adoc#deleting-rules,Suppression des règles>>
 
 .Étapes
 . Cliquez sur *PARAMÈTRES DU COMPTE*.

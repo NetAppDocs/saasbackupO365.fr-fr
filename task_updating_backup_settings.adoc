@@ -19,7 +19,7 @@ summary: Vous pouvez mettre à jour vos paramètres de sauvegarde pour contrôle
 
 
 [role="lead"]
-Vous pouvez mettre à jour votre #backup-settings,sauvegarder les paramètres pour contrôler diverses options de sauvegarde. Disponibilité #backup-settings,sauvegarder les paramètres varient en fonction du service.
+Vous pouvez mettre à jour votre <<concept_backup_settings.adoc#backup-settings,sauvegarder les paramètres>> pour contrôler diverses options de sauvegarde. Disponibilité <<concept_backup_settings.adoc#backup-settings,sauvegarder les paramètres>> varient en fonction du service.
 
 .Étapes
 . Cliquez sur *Services* dans le volet de navigation de gauche.
