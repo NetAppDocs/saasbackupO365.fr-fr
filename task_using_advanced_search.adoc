@@ -18,7 +18,7 @@ Vous pouvez utiliser *recherche avancée* pour Microsoft Exchange Online pour re
 
 Les administrateurs peuvent activer *recherche avancée* en accédant à link:https://mysupport.netapp.com/["Assistance"] et de soumettre une demande. Vous pouvez également envoyer un e-mail à l'équipe de support SaaS Backup à l'adresse saasbackupsupport@netapp.com.
 
-Après avoir activé *Advanced Search*, vous pouvez activer le portail en libre-service (SSP) pour les locataires individuels. Si vous n'activez pas *recherche avancée* avant votre première sauvegarde, aucun résultat de recherche n'apparaît. Pour en savoir plus sur le portail en libre-service, reportez-vous à la section link:reference_about_ssp.html["À propos du portail en libre-service"].
+Après avoir activé *Advanced Search*, vous pouvez activer le portail en libre-service (SSP) pour les locataires individuels. Si vous n'activez pas *recherche avancée* avant votre première sauvegarde, aucun résultat de recherche n'apparaît.
 
 image:advanced_search_settings_exchange.png["Capture d'écran des paramètres de recherche avancés"]
 

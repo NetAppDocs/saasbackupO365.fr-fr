@@ -21,7 +21,7 @@ Vous pouvez vous inscrire à SaaS Backup pour Microsoft 365 avec votre compte de
 == Créez un compte de service Microsoft 365
 
 .Étapes
-. Saisissez l'URL SaaS Backup pour Microsoft 365 dans votre navigateur Web :https://saasbackup.netapp.com[]
+. Saisissez l'URL SaaS Backup pour Microsoft 365 dans votre navigateur Web :https://[]
 . Sélectionnez votre région. Votre location est créée dans la région sélectionnée. Vos données seront stockées dans cet emplacement de data Center et ne pourront pas être modifiées plus tard.
 . Cliquez sur *s'inscrire* en bas de la page d'accueil.
 . Acceptez le contrat de licence.
@@ -42,10 +42,10 @@ Vous pouvez vous inscrire à SaaS Backup pour Microsoft 365 avec votre compte de
 == Créez un compte SSO NetApp
 
 .Avant de commencer
-Pour valider votre abonnement, vous devez disposer d'un ID utilisateur et d'un mot de passe SSO. Si vous ne possédez pas de compte SSO NetApp, consultez le site https://mysupport.netapp.com/eservice/public/now.do[] pour vous inscrire pour un seul. Une fois votre demande traitée, vous recevrez une notification par e-mail contenant vos identifiants SSO de NetApp. Le traitement de la demande prendra environ 24 heures et l'envoi de l'e-mail de notification.
+Pour valider votre abonnement, vous devez disposer d'un ID utilisateur et d'un mot de passe SSO. Si vous ne possédez pas de compte SSO NetApp, consultez le site https://[] pour vous inscrire pour un seul. Une fois votre demande traitée, vous recevrez une notification par e-mail contenant vos identifiants SSO de NetApp. Le traitement de la demande prendra environ 24 heures et l'envoi de l'e-mail de notification.
 
 .Étapes
-. Saisissez l'URL SaaS Backup pour Microsoft 365 dans votre navigateur Web :https://saasbackup.netapp.com[]
+. Saisissez l'URL SaaS Backup pour Microsoft 365 dans votre navigateur Web :https://[]
 . Cliquez sur s'inscrire en bas de la page de destination.
 . Acceptez le contrat de licence.
 . Cliquez *Inscrivez-vous avec NetApp SSO*.image:sign_up_sso.gif["Capture d'écran du bouton clic permettant de se connecter à SaaS Backup pour Microsoft 365 avec un compte SSO de NetApp"]
