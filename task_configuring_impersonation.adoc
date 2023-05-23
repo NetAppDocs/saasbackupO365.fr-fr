@@ -20,7 +20,7 @@ Si vous prévoyez d'utiliser SaaS Backup avec Microsoft Exchange Online, vous de
 
 == Configurer automatiquement l'emprunt d'identité
 
-Pour configurer automatiquement l'emprunt d'identité, exécutez https://["Commandes MSDN PowerShell"].
+Pour configurer automatiquement l'emprunt d'identité, exécutez https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["Commandes MSDN PowerShell"].
 
 
 
