@@ -38,11 +38,14 @@ Seuls les modèles suivants sont pris en charge pour les sauvegardes Microsoft S
 * EHS n° 1 (site racine)
 * EHS#0 (site racine)
 * SITEPAGEPUBLISHING#0 (site de communication)
-* GROUPE#0 (préfixe de collecte de site de groupe)
+* SPSPERS#10 (sites personnels)
 * STS#1 (site vide)
 * STS#2 (espace de travail document)
 * STS#3 (site de l'équipe moderne)
 * APP#0 (modèle d'application)
+* BLANKINTERNET#0 (site de publication)
+* TEAMCHANNEL#0
+* TEAMCHANNEL#1 (canal d'équipe privé)
 
 
 

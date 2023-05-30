@@ -36,7 +36,6 @@
   <block id="5a9fa37a8adc9079710c82bebd381be2" category="list-text">EHS n° 1 (site racine)</block>
   <block id="a1c702db865ff7988cecde653d31e549" category="list-text">EHS#0 (site racine)</block>
   <block id="e69fe81e6c14067bfa02448cc56f0d90" category="list-text">SITEPAGEPUBLISHING#0 (site de communication)</block>
-  <block id="cd6b1dceac9feb15ce679e63c41ec14b" category="list-text">GROUPE#0 (préfixe de collecte de site de groupe)</block>
   <block id="02331da6f964bf5a355bef176199392c" category="list-text">STS#1 (site vide)</block>
   <block id="370f28e84c7e5f280c6384763af39ff8" category="list-text">STS#2 (espace de travail document)</block>
   <block id="bb39ae34f785130781c5d7c8f66840ca" category="list-text">STS#3 (site de l'équipe moderne)</block>
@@ -1357,4 +1356,8 @@
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">Utilisez le portail en libre-service</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">Avant de commencer</block>
   <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">Après avoir activé *Advanced Search*, vous pouvez activer le portail en libre-service (SSP) pour les locataires individuels. Si vous n'activez pas *recherche avancée* avant votre première sauvegarde, aucun résultat de recherche n'apparaît.</block>
+  <block id="ecdf921a3a6a074b60616280efaea786" category="list-text">SPSPERS#10 (sites personnels)</block>
+  <block id="f381330caab1211a505b46814d00dafe" category="list-text">BLANKINTERNET#0 (site de publication)</block>
+  <block id="b6402d0dbe2678a6ff7d1ebe657c7846" category="list-text">TEAMCHANNEL#0</block>
+  <block id="f240a6450359519ca5f7b84a102e94a3" category="list-text">TEAMCHANNEL#1 (canal d'équipe privé)</block>
 </blocks>
