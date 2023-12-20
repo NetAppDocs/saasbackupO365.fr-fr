@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>saasbackupO365 | NetApp Documentation</title>
+    <atom:link href="https://docs.netapp.com/fr-fr/saasbackupO365/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://docs.netapp.com/fr-fr/saasbackupO365</link>
+    <description>The latest updates from NetApp Documentation</description>
+    <language>fr-fr</language>
+    <ttl>60</ttl>
+    <pubDate>Wed, 20 Dec 2023 18:46:14 +0000</pubDate>
+    <lastBuildDate>Wed, 20 Dec 2023 18:46:14 +0000</lastBuildDate>
+    
+    
+    
+    <item>
+      <title>Nouvelles fonctionnalités et mises à jour (18 May 2023)</title>
+      <pubDate>Thu, 18 May 2023 20:31:44 +0000</pubDate>
+      <link>https://docs.netapp.com/fr-fr/saasbackupO365/reference_new_saasbackupO365.html?time=1684441904</link>
+      <guid isPermaLink="false">Thu, 18 May 2023 20:31:44 +0000</guid>
+      <description><![CDATA[ SaaS Backup pour Microsoft 365 inclut régulièrement une nouvelle version qui présente de nouvelles fonctionnalités, des améliorations et des correctifs. ]]></description>
+    </item>
+    
+    
+  </channel>
+</rss>
