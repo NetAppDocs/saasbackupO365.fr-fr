@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned
 summary: 'Vous pouvez afficher une liste de boîtes aux lettres ou de comptes d"utilisateur qui ont été supprimés.' 
 ---
 = Afficher la liste des éléments déprovisionnés
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating,
 summary: Vous pouvez mettre à jour vos paramètres de sauvegarde pour contrôler diverses options de sauvegarde. Les paramètres de sauvegarde disponibles varient en fonction du service. 
 ---
 = Mettre à jour les paramètres de sauvegarde
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

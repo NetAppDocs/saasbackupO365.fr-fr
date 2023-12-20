@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, retention, period, update,
 summary: 'Vous pouvez mettre à jour la durée, en nombre d"années, des données conservées pour des niveaux individuels, des boîtes aux lettres, des sites et des Mysites sur 7 ans, 10 ans ou un nombre illimité.' 
 ---
 = Mettez à jour la période de conservation des sauvegardes
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
